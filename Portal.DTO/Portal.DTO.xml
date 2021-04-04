@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Portal.DTO</name>
+    </assembly>
+    <members>
+        <member name="P:Portal.DTO.CenterDto.Title">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.CenterDto.CenterTypeId">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.CenterDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.ResponseCenterDto.Title">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.ResponseCenterDto.CenterTypeId">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.ResponseCenterDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseDto.Id">
+            <summary>
+            در هنگام ویرایش آیدی الزامی است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseDto.Title">
+            <summary>
+            تایتل الزامی است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestBaseFilterDto.IdList">
+            <summary>
+            آرایه ای از آیدی ها
+            در آینده این پراپرتی حذف خواهد شد
+            استفاده کنید Ids از این پراپرتی استفاد نکنید و به جای از پراپرتی
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestBaseFilterDto.Ids">
+            <summary>
+            آرایه ای از آیدی ها
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseRequestPost`1.Id">
+            <summary>
+            آیدی رکورد انتخابی برای انجام عملیات الزامی است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseRequestPagingPost.PageSize">
+            <summary>
+            تعداد رکورد نمایش در هر صفحه الزامی است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseRequestPagingPost.PageNumber">
+            <summary>
+            شماره صفحه الزامی است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseRequestPaging.PageSize">
+            <summary>
+            تعداد رکورد نمایش در هر صفحه
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseRequestPaging.PageNumber">
+            <summary>
+            شماره صفحه
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.BaseUploadFileDto`1.Id">
+            <summary>
+            ایدی جدول مربوط
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.LoginDto.UserName">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.LoginDto.Password">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.Mobile">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.VerifyCode">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.UserNameCard">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.PasswordCard">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.Password">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.User.RegisterCardDto.RepeatPassword">
+            <summary>
+            اجباری  است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserPersonDto.FirstName">
+            <summary>
+            این فیلد اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserPersonDto.LastName">
+            <summary>
+            این فیلد اجباری است       
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserRegisterDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserRegisterDto.FirstName">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserRegisterDto.LastName">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserRegisterDto.Password">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserRegisterDto.SecurityCode">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestVerifyDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestVerifyDto.VerifyCode">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestMobileVerifyDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.RequestForgetPasswordyDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserCenterRegisterDto.Mobile">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserCenterRegisterDto.Name">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserCenterRegisterDto.UserName">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+        <member name="P:Portal.DTO.UserCenterRegisterDto.Password">
+            <summary>
+            اجباری است
+            </summary>
+        </member>
+    </members>
+</doc>

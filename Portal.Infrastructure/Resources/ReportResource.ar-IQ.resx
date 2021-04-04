@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DischargeSummaryReport.DischargeCondition" xml:space="preserve">
+    <value>Discharge Condition</value>
+  </data>
+  <data name="DischargeSummaryReport.FinalDiagnosis" xml:space="preserve">
+    <value>Final Diagnosis</value>
+  </data>
+  <data name="DischargeSummaryReport.LaboratoryInvestigation" xml:space="preserve">
+    <value>Laboratory Investigation</value>
+  </data>
+  <data name="DischargeSummaryReport.PrescribedDrugs" xml:space="preserve">
+    <value>Prescribed Drugs</value>
+  </data>
+  <data name="DischargeSummaryReport.RecommendationNote" xml:space="preserve">
+    <value>Recommendations &amp; Note</value>
+  </data>
+  <data name="DischargeSummaryReport.SummaryOfHistory" xml:space="preserve">
+    <value>Summary Of History</value>
+  </data>
+  <data name="DischargeSummaryReport.SurgicalMedicalProcedures" xml:space="preserve">
+    <value>Surgical And Medical Procedures</value>
+  </data>
+  <data name="DischargeSummaryReport.TreatmentOnDischarge" xml:space="preserve">
+    <value>Treatment On Discharge</value>
+  </data>
+  <data name="DischargeSummaryReport.XrayOtherImage" xml:space="preserve">
+    <value>XRay And Other Images</value>
+  </data>
+  <data name="GlobalReport.AdmissionDateTime" xml:space="preserve">
+    <value>Admission Date Time</value>
+  </data>
+  <data name="GlobalReport.Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="GlobalReport.AnswerResult" xml:space="preserve">
+    <value>Answer Result</value>
+  </data>
+  <data name="GlobalReport.Avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="GlobalReport.BedNumber" xml:space="preserve">
+    <value>Bed Number</value>
+  </data>
+  <data name="GlobalReport.BirthDate" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="GlobalReport.DepartmentTitle" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="GlobalReport.DoctorFullName" xml:space="preserve">
+    <value>Doctor Name</value>
+  </data>
+  <data name="GlobalReport.DoneDate" xml:space="preserve">
+    <value>Done Date</value>
+  </data>
+  <data name="GlobalReport.DoneDateTime" xml:space="preserve">
+    <value>Done DateTime</value>
+  </data>
+  <data name="GlobalReport.FromDate" xml:space="preserve">
+    <value>From Date</value>
+  </data>
+  <data name="GlobalReport.FullName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GlobalReport.FunctorFullName" xml:space="preserve">
+    <value>Functor</value>
+  </data>
+  <data name="GlobalReport.FunctorRole" xml:space="preserve">
+    <value>Functor Role</value>
+  </data>
+  <data name="GlobalReport.NationalCode" xml:space="preserve">
+    <value>National Code</value>
+  </data>
+  <data name="GlobalReport.Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="GlobalReport.NurseFullName" xml:space="preserve">
+    <value>Nurse</value>
+  </data>
+  <data name="GlobalReport.PrescriptionCode" xml:space="preserve">
+    <value>Prescription Code</value>
+  </data>
+  <data name="GlobalReport.PrescriptionDateTime" xml:space="preserve">
+    <value>Prescription DateTime</value>
+  </data>
+  <data name="GlobalReport.PrescriptionDoctorFullName" xml:space="preserve">
+    <value>Prescription Doctor</value>
+  </data>
+  <data name="GlobalReport.ReceptionCode" xml:space="preserve">
+    <value>Admission Code</value>
+  </data>
+  <data name="GlobalReport.RoomNumber" xml:space="preserve">
+    <value>Room Number</value>
+  </data>
+  <data name="GlobalReport.RowNumber" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="GlobalReport.ServiceGroupTitle" xml:space="preserve">
+    <value>ServiceGroup</value>
+  </data>
+  <data name="GlobalReport.ServiceTitle" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="GlobalReport.ServiceTypeTitle" xml:space="preserve">
+    <value>ServiceType</value>
+  </data>
+  <data name="GlobalReport.Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="GlobalReport.Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="GlobalReport.ToDate" xml:space="preserve">
+    <value>To Date</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.FinalDiagnosis" xml:space="preserve">
+    <value>Final Diagnosis</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.GeneralExaminations" xml:space="preserve">
+    <value>General Examination</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.InitialDiagnosis" xml:space="preserve">
+    <value>Initial Diagnosis</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.MedicalHistories" xml:space="preserve">
+    <value>Medical History</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PermanentDoctorFullName" xml:space="preserve">
+    <value>Permanent Doctor</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PhysicalExaminations" xml:space="preserve">
+    <value>Physical Examination</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PrescriptionDiets" xml:space="preserve">
+    <value>Diet</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PrescriptionDrugs" xml:space="preserve">
+    <value>Treatment</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PrescriptionServices" xml:space="preserve">
+    <value>Investigation</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.ResidentDoctorFullName" xml:space="preserve">
+    <value>Resident Doctor</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.ReviewOfSystems" xml:space="preserve">
+    <value>Review Of System</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.SpecialistDoctorFullName" xml:space="preserve">
+    <value>Specialist Doctor</value>
+  </data>
+  <data name="NursingObservationNoteReport.DoneDate" xml:space="preserve">
+    <value>Done DateTime</value>
+  </data>
+  <data name="NursingObservationNoteReport.Note" xml:space="preserve">
+    <value>Observation Note</value>
+  </data>
+  <data name="NursingObservationNoteReport.ObservationDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="NursingObservationNoteReport.ObservationTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="VitalSignReport.PlaceTodo" xml:space="preserve">
+    <value>Place Todo</value>
+  </data>
+  <data name="VitalSignReport.Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="AdmissionFormReport.BookNumber" xml:space="preserve">
+    <value>Book Number</value>
+  </data>
+  <data name="AdmissionFormReport.SexTitle" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="AdmissionFormReport.NumberOfVisitsTitle" xml:space="preserve">
+    <value>Number of visits</value>
+  </data>
+  <data name="AdmissionFormReport.PatientFullName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="AdmissionFormReport.MotherName" xml:space="preserve">
+    <value>Mother's name</value>
+  </data>
+  <data name="AdmissionFormReport.GovernorCode" xml:space="preserve">
+    <value>Governor's Code</value>
+  </data>
+  <data name="AdmissionFormReport.ResidencePlaceTitle" xml:space="preserve">
+    <value>Residence</value>
+  </data>
+  <data name="AdmissionFormReport.PhoneNumber" xml:space="preserve">
+    <value>phone number</value>
+  </data>
+  <data name="AdmissionFormReport.Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AdmissionFormReport.SocialStatusTitle" xml:space="preserve">
+    <value>Social status</value>
+  </data>
+  <data name="AdmissionFormReport.BirthYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AdmissionFormReport.BirthMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="AdmissionFormReport.BirthDay" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="AdmissionFormReport.Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="AdmissionFormReport.BirthPlaceTitle" xml:space="preserve">
+    <value>Place of birth</value>
+  </data>
+  <data name="AdmissionFormReport.NearestPersonAddressPhone" xml:space="preserve">
+    <value>Address and phone the nearest person</value>
+  </data>
+  <data name="AdmissionFormReport.JobTitle" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="AdmissionFormReport.WorkplaceTitle" xml:space="preserve">
+    <value>Workplace</value>
+  </data>
+  <data name="AdmissionFormReport.WorkplaceTypeTitle" xml:space="preserve">
+    <value>Workplace Type</value>
+  </data>
+  <data name="AdmissionFormReport.ReagentTitle" xml:space="preserve">
+    <value>Reagent</value>
+  </data>
+  <data name="AdmissionFormReport.ReviewStatusTitle" xml:space="preserve">
+    <value>Review Status</value>
+  </data>
+  <data name="AdmissionFormReport.AdmissionDateYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AdmissionFormReport.AdmissionDateMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="AdmissionFormReport.AdmissionDateDay" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="AdmissionFormReport.FloorTitle" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="AdmissionFormReport.UnitTitle" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="AdmissionFormReport.BedNo" xml:space="preserve">
+    <value>Bed No</value>
+  </data>
+  <data name="AdmissionFormReport.Transfers" xml:space="preserve">
+    <value>Transfers</value>
+  </data>
+  <data name="AdmissionFormReport.IsItUpToPolice" xml:space="preserve">
+    <value>Is it up to the police?</value>
+  </data>
+  <data name="AdmissionFormReport.DischargeDateYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AdmissionFormReport.DischargeDateMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="AdmissionFormReport.DischargeDateDay" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="AdmissionFormReport.DischargeDateTime" xml:space="preserve">
+    <value>Discharge Date Time</value>
+  </data>
+  <data name="AdmissionFormReport.DeathDateYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AdmissionFormReport.DeathDateMonth" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="AdmissionFormReport.DeathDateDay" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="AdmissionFormReport.DeathDateTime" xml:space="preserve">
+    <value>Death Date Time</value>
+  </data>
+  <data name="AdmissionFormReport.Cured" xml:space="preserve">
+    <value>Cured</value>
+  </data>
+  <data name="AdmissionFormReport.Improved" xml:space="preserve">
+    <value>Improved</value>
+  </data>
+  <data name="AdmissionFormReport.TheSameSituationAsBefore" xml:space="preserve">
+    <value>Transfer to another hospital</value>
+  </data>
+  <data name="AdmissionFormReport.AtYourOwnRisk" xml:space="preserve">
+    <value>At your own risk</value>
+  </data>
+  <data name="AdmissionFormReport.TransferToAnotherHospital" xml:space="preserve">
+    <value>Transfer to another hospital</value>
+  </data>
+  <data name="AdmissionFormReport.Deceased" xml:space="preserve">
+    <value>Deceased</value>
+  </data>
+  <data name="AdmissionFormReport.OtherSituations" xml:space="preserve">
+    <value>Other situations</value>
+  </data>
+  <data name="AdmissionFormReport.Dissection" xml:space="preserve">
+    <value>Dissection</value>
+  </data>
+  <data name="AdmissionFormReport.InitialDiagnosisTitle" xml:space="preserve">
+    <value>Initial Diagnosis</value>
+  </data>
+  <data name="AdmissionFormReport.FinalDiagnosisTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="AdmissionFormReport.IcdCodeId" xml:space="preserve">
+    <value>ICD10Code</value>
+  </data>
+  <data name="AdmissionFormReport.VacationGrantedDays" xml:space="preserve">
+    <value>Vacations granted in days</value>
+  </data>
+  <data name="AdmissionFormReport.VacationGrantedDaysText" xml:space="preserve">
+    <value>Writing</value>
+  </data>
+  <data name="AdmissionFormReport.VacationGrantedInFirstSleepCondition" xml:space="preserve">
+    <value>Was a vacation granted in the first sleep condition?</value>
+  </data>
+  <data name="AdmissionFormReport.NextVisitDay" xml:space="preserve">
+    <value>Review the clinic after</value>
+  </data>
+  <data name="AdmissionFormReport.NextVisitDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="AdmissionFormReport.PermanentDoctor" xml:space="preserve">
+    <value>Permanent Doctor</value>
+  </data>
+  <data name="AdmissionFormReport.SpecialistDoctor" xml:space="preserve">
+    <value>Specialist Doctor</value>
+  </data>
+  <data name="AdmissionFormReport.AttachmentWithPatient" xml:space="preserve">
+    <value>Are there documents to photograph with the tabla?</value>
+  </data>
+  <data name="AdmissionFormReport.TheFirstReference" xml:space="preserve">
+    <value>The first reference</value>
+  </data>
+  <data name="AdmissionFormReport.Repeatedly" xml:space="preserve">
+    <value>Repeatedly</value>
+  </data>
+  <data name="AdmissionFormReport.TheSecondReference" xml:space="preserve">
+    <value>The second referenc</value>
+  </data>
+  <data name="GlobalReport.Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="GlobalReport.HospitalName" xml:space="preserve">
+    <value>Hospital Name</value>
+  </data>
+  <data name="GlobalReport.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="RadiologyReport.FormElement.Buttons.ViewFullNote" xml:space="preserve">
+    <value>View full note</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.ServiceTitle" xml:space="preserve">
+    <value>Service title</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.ServiceResult" xml:space="preserve">
+    <value>Service result</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.MedicalHistories" xml:space="preserve">
+    <value>Medical histories</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.ReviewOfSystems" xml:space="preserve">
+    <value>Review of systems</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.PhysicalExaminations" xml:space="preserve">
+    <value>Physical examinations</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.GeneralExaminations" xml:space="preserve">
+    <value>General examinations</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.OtherReports" xml:space="preserve">
+    <value>Other reports</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.UnitTitle" xml:space="preserve">
+    <value>Unit title</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.Diets" xml:space="preserve">
+    <value>Diets</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.ResidentDoctorsFullName" xml:space="preserve">
+    <value>Resident doctor</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.PermanentDoctorsFullName" xml:space="preserve">
+    <value>Permanent doctor</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExamination.Labels.SpecialistDoctorsFullName" xml:space="preserve">
+    <value>Specialist doctor</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.AdmissionForm.FormElement.Fields.DischargeDateTime" xml:space="preserve">
+    <value>Discharge Date Time</value>
+  </data>
+  <data name="RoleForm.FormElement.Buttons.ViewRolePermission" xml:space="preserve">
+    <value>View role permissions</value>
+  </data>
+  <data name="RoleForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>Role title</value>
+  </data>
+  <data name="RoleForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>Role title</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.AdmissionForm.FormElement.Fields.HospitalName" xml:space="preserve">
+    <value>Hospital</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.MinistryOfHealthName" xml:space="preserve">
+    <value>Ministry Of Health</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.BookNumber" xml:space="preserve">
+    <value>Book Number</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.PatientFullName" xml:space="preserve">
+    <value>Patient Name</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.MotherName" xml:space="preserve">
+    <value>Mother's Name</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Sex" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.NumberOfVisitsTitle" xml:space="preserve">
+    <value>Number Of Visits</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.FullAddress" xml:space="preserve">
+    <value>Full Address</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.GovernorCode" xml:space="preserve">
+    <value>Governor's Code</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Resident" xml:space="preserve">
+    <value>Resident</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.SocialStatus" xml:space="preserve">
+    <value>Social Status</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.BirthDate" xml:space="preserve">
+    <value>Date Of Birth</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.BirthPlace" xml:space="preserve">
+    <value>Place Of Birth</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Disabled" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Job" xml:space="preserve">
+    <value>Job</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.NearestPersonAddressPhone" xml:space="preserve">
+    <value>Address And Phone The Nearest Person</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Workplace" xml:space="preserve">
+    <value>Work Place</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.WorkplaceType" xml:space="preserve">
+    <value>Work Place Type</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Reagent" xml:space="preserve">
+    <value>Reagent</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.ReviewStatus" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.AdmissionDate" xml:space="preserve">
+    <value>Admission Date</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Month" xml:space="preserve">
+    <value> Month </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Day" xml:space="preserve">
+    <value> Day</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Time" xml:space="preserve">
+    <value> Time </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Floor" xml:space="preserve">
+    <value>Floor</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Unit" xml:space="preserve">
+    <value> Unit </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Beds" xml:space="preserve">
+    <value>Beds</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Transfers" xml:space="preserve">
+    <value> Transfers</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.UpToThePoliceText" xml:space="preserve">
+    <value> Is it up to the police ? </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.DischargeDateTime" xml:space="preserve">
+    <value> Discharge Date Time</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.DischargeCondition" xml:space="preserve">
+    <value> Discharge Condition</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Improved" xml:space="preserve">
+    <value> Improved </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.TheSameSituationAsBefore" xml:space="preserve">
+    <value> The Same Situation As Before</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.AtYourOwnRisk" xml:space="preserve">
+    <value> At Your Own Risk</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.TransferToAnotherHospital" xml:space="preserve">
+    <value> Transfer To Another Hospital</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Deceased" xml:space="preserve">
+    <value> Deceased</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.OtherSituations" xml:space="preserve">
+    <value> Other Situations </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.DateOfDeath" xml:space="preserve">
+    <value> Date Of Death </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Dissection" xml:space="preserve">
+    <value> Dissection </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.VacationGrantedDays" xml:space="preserve">
+    <value>Vacations Granted In Day</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.VacationGrantedInFirstSleepCondition" xml:space="preserve">
+    <value>Was A Vacation Granted In The First Sleep Condition ?</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.NextVisitDay" xml:space="preserve">
+    <value>Review The Clinic After</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.NextVisitDate" xml:space="preserve">
+    <value> Date</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.AttachmentWithPatient" xml:space="preserve">
+    <value>Are There Documents To Photograph With The Table ?</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.PermanentDoctor" xml:space="preserve">
+    <value> Permanent Doctor Name </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.SpecialistDoctor" xml:space="preserve">
+    <value> Specialist Doctor Name </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.Name" xml:space="preserve">
+    <value> Name </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.ICD10Code" xml:space="preserve">
+    <value> ICD10 Code </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.InitialDiagnosis" xml:space="preserve">
+    <value> Initial Diagnosis </value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.FinalDiagnosis" xml:space="preserve">
+    <value> Final Diagnosis </value>
+  </data>
+  <data name="Report.FormElement.Buttons.Print" xml:space="preserve">
+    <value> Print </value>
+  </data>
+  <data name="PationInfo.FormElement.Fields.Yearsold" xml:space="preserve">
+    <value>Years old</value>
+  </data>
+  <data name="AdmissionForm.FormElement.Fields.HospitalName" xml:space="preserve">
+    <value>Hospital</value>
+  </data>
+  <data name="DischargeConditionForm.FormElement.Fields.TheSameSituationAsBefore" xml:space="preserve">
+    <value>The same situation as before</value>
+  </data>
+  <data name="DischargeConditionForm.FormElement.Fields.AtYourOwnRisk" xml:space="preserve">
+    <value>At your own risk</value>
+  </data>
+  <data name="DischargeConditionForm.FormElement.Fields.TransferToAnotherHospital" xml:space="preserve">
+    <value>Transfer to another hospital</value>
+  </data>
+  <data name="DischargeConditionForm.FormElement.Fields.Deceased" xml:space="preserve">
+    <value>Deceased</value>
+  </data>
+  <data name="DischargeConditionForm.FormElement.Fields.Cured" xml:space="preserve">
+    <value>Cured</value>
+  </data>
+  <data name="AdmissionFormReport.CivilRegistry" xml:space="preserve">
+    <value>Civil Registry</value>
+  </data>
+  <data name="AdmissionFormReport.CivilRegistryBookNumber" xml:space="preserve">
+    <value>Book Number</value>
+  </data>
+  <data name="AdmissionFormReport.CivilRegistryPageNumber" xml:space="preserve">
+    <value>Page Number</value>
+  </data>
+  <data name="AdmissionFormReport.CivilStatusDirectorate" xml:space="preserve">
+    <value>Status Directorate</value>
+  </data>
+  <data name="AdmissionFormReport.DischargeCondition" xml:space="preserve">
+    <value>Discharge Condition</value>
+  </data>
+  <data name="AdmissionFormReport.GovernorateTitle" xml:space="preserve">
+    <value>Governorate</value>
+  </data>
+  <data name="AdmissionFormReport.GovernorTitle" xml:space="preserve">
+    <value>Governor</value>
+  </data>
+  <data name="AdmissionFormReport.HospitalizationsDuringYear" xml:space="preserve">
+    <value>The patient's total previous hospitalizations during the year</value>
+  </data>
+  <data name="AdmissionFormReport.ResponsibleNurseFullName" xml:space="preserve">
+    <value>The responsible nurse</value>
+  </data>
+  <data name="AdmissionFormReport.SpecialtyTitle" xml:space="preserve">
+    <value>Specialty</value>
+  </data>
+  <data name="AdmissionFormReport.SupervisorNurseFullName" xml:space="preserve">
+    <value>The supervisor nurse</value>
+  </data>
+  <data name="AdmissionFormReport.TheResponsibleNurse" xml:space="preserve">
+    <value>The Responsible Nurse</value>
+  </data>
+  <data name="AdmissionFormReport.TheSupervisorNurse" xml:space="preserve">
+    <value>The Supervisor Nurse</value>
+  </data>
+  <data name="GlobalReport.AdmissionDate" xml:space="preserve">
+    <value>Admission Date</value>
+  </data>
+  <data name="GlobalReport.CityTitle" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="GlobalReport.DischargeDate" xml:space="preserve">
+    <value>Discharge Date</value>
+  </data>
+  <data name="GlobalReport.EducationTitle" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="GlobalReport.FullNameThree" xml:space="preserve">
+    <value>Full Name Three</value>
+  </data>
+  <data name="GlobalReport.MinistryOfHealthName" xml:space="preserve">
+    <value>Ministry Of Health</value>
+  </data>
+  <data name="GlobalReport.MotherFullName" xml:space="preserve">
+    <value>Mather Full Name</value>
+  </data>
+  <data name="GlobalReport.NationalityTitle" xml:space="preserve">
+    <value>Nationality</value>
+  </data>
+  <data name="GlobalReport.PatientCode" xml:space="preserve">
+    <value>Patient Code</value>
+  </data>
+  <data name="GlobalReport.PatientFullNameThree" xml:space="preserve">
+    <value>Full Name Three</value>
+  </data>
+  <data name="GlobalReport.ProvinceTitle" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="GlobalReport.TownTitle" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="GlobalReport.CivilRegistryTitle" xml:space="preserve">
+    <value>Civil Registry</value>
+  </data>
+  <data name="GlobalReport.FinalDiagnosis" xml:space="preserve">
+    <value>Final Diagnosis</value>
+  </data>
+  <data name="GlobalReport.LocationTitle" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.ResidentDoctorsFullName" xml:space="preserve">
+    <value>ResidentDoctors</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.Investigation" xml:space="preserve">
+    <value>Investigation</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.PermanentDoctorsFullName" xml:space="preserve">
+    <value>PermanentDoctors</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.SpecialistDoctorsFullName" xml:space="preserve">
+    <value>SpecialistDoctors</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.Diets" xml:space="preserve">
+    <value>Diets</value>
+  </data>
+  <data name="MedicalHistoryAndPhysicalExaminationReport.Treatments" xml:space="preserve">
+    <value>Treatments</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.DrugTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.FrequencyDuration" xml:space="preserve">
+    <value>Frequency | Duration</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.ServiceTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.FaxNumber" xml:space="preserve">
+    <value>Fax Number</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.FromDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.PermanentResidentNote" xml:space="preserve">
+    <value>Permanent ResidentNote</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.PharmacistDoctor" xml:space="preserve">
+    <value>Pharmacist Doctor</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.PharmacistNote" xml:space="preserve">
+    <value>Pharmacist Note</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.PhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.ResidentDoctor" xml:space="preserve">
+    <value>Resident Doctor</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.ResidentNote" xml:space="preserve">
+    <value>Resident Note</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.SeniorDoctor" xml:space="preserve">
+    <value>Senior Doctor</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.SpecialistDoctor" xml:space="preserve">
+    <value>Specialist Doctor</value>
+  </data>
+  <data name="TourAndFollowUpSheetReport.SpecialistDoctorNote" xml:space="preserve">
+    <value>Specialist Doctor Note</value>
+  </data>
+  <data name="GlobalReport.Address" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="GlobalReport.Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="GlobalReport.Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="GlobalReport.Flag" xml:space="preserve">
+    <value>Flag</value>
+  </data>
+  <data name="GlobalReport.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="GlobalReport.PrescriptionDate" xml:space="preserve">
+    <value>Prescription Date</value>
+  </data>
+  <data name="GlobalReport.Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="GlobalReport.Tell" xml:space="preserve">
+    <value>Tell</value>
+  </data>
+  <data name="GlobalReport.Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="GlobalReport.Unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="LaboratoryAnswerReport.AnswerDate" xml:space="preserve">
+    <value>Answer Date</value>
+  </data>
+  <data name="LaboratoryAnswerReport.DoctorFullName" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="LaboratoryAnswerReport.DoctorFullNameasd" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LaboratoryAnswerReport.DoctorFullNamesdf" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LaboratoryAnswerReport.FatherName" xml:space="preserve">
+    <value>Father Name</value>
+  </data>
+  <data name="LaboratoryAnswerReport.FileCode" xml:space="preserve">
+    <value>File Code</value>
+  </data>
+  <data name="LaboratoryAnswerReport.FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="LaboratoryAnswerReport.GroupTitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LaboratoryAnswerReport.NormalRange" xml:space="preserve">
+    <value>Normal Range</value>
+  </data>
+  <data name="LaboratoryAnswerReport.SamplingDate" xml:space="preserve">
+    <value>Sampling Date</value>
+  </data>
+  <data name="LaboratoryAnswerReport.TestName" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="LaboratoryAnswerReport.VisitDate" xml:space="preserve">
+    <value>Visit Date</value>
+  </data>
+  <data name="LaboratoryAnswerReport.VisitNumber" xml:space="preserve">
+    <value>Visit Number</value>
+  </data>
+   <data name="PrescriptionShareReport.SexAndAge" xml:space="preserve">
+    <value>sex and age</value>
+  </data>
+  <data name="PrescriptionShareReport.Tests" xml:space="preserve">
+    <value>آزمایشات</value>
+  </data>
+  <data name="PrescriptionShareReport.AnswerDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="PrescriptionShareReport.BMI" xml:space="preserve">
+    <value>BMI</value>
+  </data>
+  <data name="PrescriptionShareReport.BR" xml:space="preserve">
+    <value>BR</value>
+  </data>
+  <data name="PrescriptionShareReport.ClinicName" xml:space="preserve">
+    <value>Clinic</value>
+  </data>
+  <data name="PrescriptionShareReport.ClinicPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PrescriptionShareReport.Creatinine" xml:space="preserve">
+    <value>Creatinine</value>
+  </data>
+  <data name="PrescriptionShareReport.DiseaseHistory" xml:space="preserve">
+    <value>Disease History</value>
+  </data>
+  <data name="PrescriptionShareReport.DiseasRecords" xml:space="preserve">
+    <value>Diseas Records</value>
+  </data>
+  <data name="PrescriptionShareReport.DoctorName" xml:space="preserve">
+    <value>Doctor Name</value>
+  </data>
+  <data name="PrescriptionShareReport.DoctorNote" xml:space="preserve">
+    <value>Doctor Note</value>
+  </data>
+  <data name="PrescriptionShareReport.DrugDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="PrescriptionShareReport.DrugName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PrescriptionShareReport.DrugNote" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="PrescriptionShareReport.Drugs" xml:space="preserve">
+    <value>List Drugs</value>
+  </data>
+  <data name="PrescriptionShareReport.DurationTime" xml:space="preserve">
+    <value>Duration Time</value>
+  </data>
+  <data name="PrescriptionShareReport.eGFR" xml:space="preserve">
+    <value>eGFR</value>
+  </data>
+  <data name="PrescriptionShareReport.FatherName" xml:space="preserve">
+    <value>Father Name</value>
+  </data>
+  <data name="PrescriptionShareReport.FullName" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="PrescriptionShareReport.GrandFatherName" xml:space="preserve">
+    <value>Grand Father Name</value>
+  </data>
+  <data name="PrescriptionShareReport.Height" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="PrescriptionShareReport.HistoryofSurgery" xml:space="preserve">
+    <value>Historyof Surgery</value>
+  </data>
+  <data name="PrescriptionShareReport.LaboratoryAnswers" xml:space="preserve">
+    <value>Answers </value>
+  </data>
+  <data name="PrescriptionShareReport.LinkAnswer" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="PrescriptionShareReport.NationalCode" xml:space="preserve">
+    <value>NationalCode</value>
+  </data>
+  <data name="PrescriptionShareReport.PatientComplaint" xml:space="preserve">
+    <value>Patient Complaint</value>
+  </data>
+  <data name="PrescriptionShareReport.PatientHistories" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="PrescriptionShareReport.Phone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="PrescriptionShareReport.PR" xml:space="preserve">
+    <value>PR</value>
+  </data>
+  <data name="PrescriptionShareReport.Radiologies" xml:space="preserve">
+    <value>Radiology</value>
+  </data>
+  <data name="PrescriptionShareReport.RadiologyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PrescriptionShareReport.RadiologyNote" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="PrescriptionShareReport.SkinColor" xml:space="preserve">
+    <value>SkinColor</value>
+  </data>
+  <data name="PrescriptionShareReport.SPO2" xml:space="preserve">
+    <value>SPO2</value>
+  </data>
+  <data name="PrescriptionShareReport.Temperature" xml:space="preserve">
+    <value>Temperature</value>
+  </data>
+  <data name="PrescriptionShareReport.VitalSigns" xml:space="preserve">
+    <value>Vital sign</value>
+  </data>
+  <data name="PrescriptionShareReport.Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+</root>

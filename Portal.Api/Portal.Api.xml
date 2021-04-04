@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Portal.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.#ctor(Portal.Application.Interface.Base.IBasicService{Portal.Entities.Models.Expertise})">
+            <summary>
+            
+            </summary>
+            <param name="basicService"></param>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.List">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.ListPaging(Portal.DTO.BaseRequestPost{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="baseRequestPost"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.Add(Portal.DTO.RequestBaseDto)">
+            <summary>
+            
+            </summary>
+            <param name="requestBaseDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.Edit(Portal.DTO.RequestBaseDto)">
+            <summary>
+            
+            </summary>
+            <param name="requestBaseDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.ExpertiseController.Delete(Portal.DTO.BaseRequestPost{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="baseRequestPost"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.#ctor(Portal.Application.Interface.Base.IBasicService{Portal.Entities.Models.Nationality})">
+            <summary>
+            
+            </summary>
+            <param name="basicService"></param>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.GetById(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.List">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.ListPaging(Portal.DTO.BaseRequestPost{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="baseRequestPost"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.Add(Portal.DTO.RequestBaseDto)">
+            <summary>
+            
+            </summary>
+            <param name="requestBaseDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.Edit(Portal.DTO.RequestBaseDto)">
+            <summary>
+            
+            </summary>
+            <param name="requestBaseDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.Api.NationalityController.Delete(Portal.DTO.BaseRequestPost{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="baseRequestPost"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.AccountController.CheckVerify(Portal.DTO.RequestVerifyDto)">
+            <summary>
+            بعد کد وریرفای در صفحه شماره موبایل
+            </summary>
+            <param name="requestMobileVerifyDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.AccountController.RegisterForCenter(Portal.DTO.UserCenterRegisterDto)">
+            <summary>
+            ثبت یوزر مختص مراکز
+            </summary>
+            <param name="userRegisterDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Portal.Api.Controllers.ResourceController.GetAllLanguage">
+            <summary>
+            Get All Languages
+            </summary>
+        </member>
+        <member name="M:Portal.Api.Controllers.ResourceController.GetResource(Portal.DTO.ResourceDto)">
+            <summary>
+            Get Resource By Language
+            </summary>
+        </member>
+        <member name="M:Portal.Api.Controllers.ResourceController.New(Portal.DTO.NewResourceDto)">
+            <summary>
+            New Translate (Add and Edit)
+            </summary>
+        </member>
+        <member name="M:His.Reception.Api.Areas.Pacs.Controller.FilesController.GetFilesByFileGroupId(System.Int32,System.String,System.String)">
+            <summary>
+            get all files with fileGroupId, tableName and tableId
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:His.Reception.Api.Areas.Pacs.Controller.FilesGroupController.GetFileGroupWithFilesCount(System.String,System.String)">
+            <summary>
+            get all fileGroup with files count in each group
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:His.Reception.Api.Areas.Pacs.Controller.FilesGroupController.GetAll(System.String,System.String)">
+            <summary>
+            get all fileGroup
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

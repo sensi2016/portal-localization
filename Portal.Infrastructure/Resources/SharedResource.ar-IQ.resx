@@ -1,0 +1,1260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HomePage.FormElement.Buttons.Hospital" xml:space="preserve">
+    <value>المستشفيات</value>
+  </data>
+  <data name="LoginForm.Labels.EnterMobileNumber1" xml:space="preserve">
+    <value>أدخل رقم الهاتف</value>
+  </data>
+  <data name="RegisterForm.Labels.RegitrationSuccessMessage" xml:space="preserve">
+    <value>رسالة نجاح التسجيل</value>
+  </data>
+  <data name="RegisterForm.Labels.ContinueToCompelete" xml:space="preserve">
+    <value>تابع حتى الاكتمال</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.CompeleteAccount" xml:space="preserve">
+    <value>الحساب الكامل</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.LaterWillCompeleteAccount" xml:space="preserve">
+    <value>في وقت لاحق سوف يكمل الحساب</value>
+  </data>
+  <data name="RegisterForm.Labels.UserNameOrPasswordIsIncorrect" xml:space="preserve">
+    <value>اسم المستخدم أو كلمة المرور غير صحيحة</value>
+  </data>
+  <data name="Center" xml:space="preserve">
+    <value>المرکز</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="Adress" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>لوحة المعلومات</value>
+  </data>
+  <data name="ImportExcelList" xml:space="preserve">
+    <value>استيراد قائمة إكسل</value>
+  </data>
+  <data name="AnswerExcelList" xml:space="preserve">
+    <value>قائمة اسماء المرضى و النتائج </value>
+  </data>
+  <data name="UploadExcel" xml:space="preserve">
+    <value>تحميل إكسل</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>إرسال</value>
+  </data>
+  <data name="NotFoundAnyRecord" xml:space="preserve">
+    <value>لم يتم العثور على أي سجل</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="AccessDeniedForm.Labels.AccessDenied" xml:space="preserve">
+    <value>غير مسموح بالدخول</value>
+  </data>
+  <data name="AccessDeniedForm.Labels.ErrorForm" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.Close" xml:space="preserve">
+    <value>لإغلاق</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.Continue" xml:space="preserve">
+    <value>استمرار</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.DownloadAnswer" xml:space="preserve">
+    <value>تنزيل الإجابة</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.Edit" xml:space="preserve">
+    <value>التعدیل</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.Save" xml:space="preserve">
+    <value>التسجيل و التعدیل</value>
+  </data>
+  <data name="AnswerForm.FormElement.Buttons.ViewAnswer" xml:space="preserve">
+    <value>انظر للاجابة</value>
+  </data>
+  <data name="AnswerForm.Grid.Col.Fields.Actions" xml:space="preserve">
+    <value>أجراءات</value>
+  </data>
+  <data name="AnswerForm.Grid.Col.Fields.Date" xml:space="preserve">
+    <value>تاريخ</value>
+  </data>
+  <data name="AnswerForm.Grid.Col.Fields.Note" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="AnswerForm.Labels.BirthPlace" xml:space="preserve">
+    <value>مكان الولادة</value>
+  </data>
+  <data name="AnswerForm.Labels.Day" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="AnswerForm.Labels.Demography" xml:space="preserve">
+    <value>ديموغرافية</value>
+  </data>
+  <data name="AnswerForm.Labels.Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="AnswerForm.Labels.EnterMobile" xml:space="preserve">
+    <value>کلمة العبور</value>
+  </data>
+  <data name="AnswerForm.Labels.FirstName" xml:space="preserve">
+    <value>اسم</value>
+  </data>
+  <data name="AnswerForm.Labels.LastName" xml:space="preserve">
+    <value>الاسم الثلاثي</value>
+  </data>
+  <data name="AnswerForm.Labels.Level1" xml:space="preserve">
+    <value>المستوى 1</value>
+  </data>
+  <data name="AnswerForm.Labels.Level2" xml:space="preserve">
+    <value>المستوى 2</value>
+  </data>
+  <data name="AnswerForm.Labels.Level3" xml:space="preserve">
+    <value>المستوى 3</value>
+  </data>
+  <data name="AnswerForm.Labels.Level4" xml:space="preserve">
+    <value>المستوى 4</value>
+  </data>
+  <data name="AnswerForm.Labels.MobileNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="AnswerForm.Labels.Month" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="ProfileView.FatherName" xml:space="preserve">
+    <value>اسم الاب</value>
+  </data>
+  <data name="ProfileView.GrandFatherName" xml:space="preserve">
+    <value>اسم الجد</value>
+  </data>
+  <data name="ProfileView.NationalCode" xml:space="preserve">
+    <value>رقم البطاقة الوطنية / هوية الأحوال المدنية</value>
+  </data>
+  <data name="AnswerForm.Labels.NationalCode" xml:space="preserve">
+    <value>بطاقة الوطنية</value>
+  </data>
+  <data name="AnswerForm.Labels.Note" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="AnswerForm.Labels.Sex" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="ProfileView.Telephone" xml:space="preserve">
+    <value>رقم الموبايل</value>
+  </data>
+  <data name="AnswerForm.Labels.Telephone" xml:space="preserve">
+    <value>الهاتف الثابت</value>
+  </data>
+  <data name="AnswerForm.Labels.View" xml:space="preserve">
+    <value>رؤیة</value>
+  </data>
+  <data name="AnswerForm.Labels.ViewAnswer" xml:space="preserve">
+    <value>انظر للاجابة</value>
+  </data>
+  <data name="AnswerForm.Labels.Year" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="formPage.FormFiels.errors.age.isRequired" xml:space="preserve">
+    <value>سن لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.age.MinEighteen" xml:space="preserve">
+    <value>حداقل 18 سال</value>
+  </data>
+  <data name="formPage.FormFiels.errors.fatherName.isRequired" xml:space="preserve">
+    <value>نام پدر لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.fatherName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.firstName.isRequired" xml:space="preserve">
+    <value>نام لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.firstName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.lastName.isRequired" xml:space="preserve">
+    <value>نام خانوادگی لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.lastName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.mobile.isRequired" xml:space="preserve">
+    <value>موبایل لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.mobile.Min" xml:space="preserve">
+    <value>حداقل 10 رقم</value>
+  </data>
+  <data name="formPage.FormFiels.labels.age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="formPage.FormFiels.labels.fatherName" xml:space="preserve">
+    <value>الأب</value>
+  </data>
+  <data name="formPage.FormFiels.labels.firstName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="formPage.FormFiels.labels.lastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="formPage.FormFiels.labels.mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="HomePage.Button.Logout" xml:space="preserve">
+    <value>کلمة العبور</value>
+  </data>
+  <data name="HomePage.Covid19" xml:space="preserve">
+    <value>احصائيات كوفيد ۱۹</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Consultation" xml:space="preserve">
+    <value>استشاره</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Help" xml:space="preserve">
+    <value>مساعدة </value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Labs" xml:space="preserve">
+    <value>المختبرات</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.LoginSignUp" xml:space="preserve">
+    <value>الدخول/التسجيل</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Logout" xml:space="preserve">
+    <value>تسجيل خروج</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Pharmacy" xml:space="preserve">
+    <value>الصیدلیات</value>
+  </data>
+  <data name="HomePage.FormElement.Buttons.Radiology" xml:space="preserve">
+    <value>مراکز الأشعة</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Consultation" xml:space="preserve">
+    <value>الأطباء</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Hospital" xml:space="preserve">
+    <value>المستشفيات</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Labs" xml:space="preserve">
+    <value>مختبرات</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Pharmacy" xml:space="preserve">
+    <value>الصیدلیه</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Radiology" xml:space="preserve">
+    <value>مراکز الشعه</value>
+  </data>
+  <data name="HomePage.Labels.AreaAndRegion" xml:space="preserve">
+    <value>المنطقة</value>
+  </data>
+  <data name="HomePage.Labels.City" xml:space="preserve">
+    <value>المحافظة</value>
+  </data>
+  <data name="HomePage.Labels.News" xml:space="preserve">
+    <value>الإخبار</value>
+  </data>
+  <data name="HomePage.Labels.Nodata" xml:space="preserve">
+    <value>لايوجد بيانات</value>
+  </data>
+  <data name="HomePage.Labels.RadiologyCenterName" xml:space="preserve">
+    <value>مراکز الشعه</value>
+  </data>
+  <data name="HomePage.Labels.State" xml:space="preserve">
+    <value>محافظة</value>
+  </data>
+  <data name="LoginForm.FormElement.Buttons.Continue" xml:space="preserve">
+    <value>استمرار</value>
+  </data>
+  <data name="LoginForm.FormElement.Buttons.Register" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="LoginForm.Labels.EnterCardInfo" xml:space="preserve">
+    <value>کلمة المرور</value>
+  </data>
+  <data name="LoginForm.Labels.EnterPassword" xml:space="preserve">
+    <value>ادخل رقمك السري</value>
+  </data>
+  <data name="LoginForm.Labels.EnterUserName" xml:space="preserve">
+    <value>أدخل اسم المستخدم الخاص بك</value>
+  </data>
+  <data name="LoginForm.Labels.RegisterByMobileNumber" xml:space="preserve">
+    <value>سجل برقم الهاتفک</value>
+  </data>
+  <data name="LoginForm.Labels.RegisterWithCard" xml:space="preserve">
+    <value>التسجيل عن طريق البطاقة </value>
+  </data>
+  <data name="PasswordForm.FormElement.Buttons.return" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="PasswordForm.Labels.Continue" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="PasswordForm.Labels.RegisterByMobileNumber" xml:space="preserve">
+    <value>التسجيل برقم الهاتف المحمول</value>
+  </data>
+  <data name="PasswordForm.Labels.return" xml:space="preserve">
+    <value>عودة</value>
+  </data>
+  <data name="ProfileView.FormElement.Buttons.Edit" xml:space="preserve">
+    <value>تعديل بياناتي</value>
+  </data>
+  <data name="ProfileView.Labels.BirthDate" xml:space="preserve">
+    <value>تاریخ الولادة</value>
+  </data>
+  <data name="ProfileView.Labels.BirthPlace" xml:space="preserve">
+    <value>مكان الولادة</value>
+  </data>
+  <data name="ProfileIndex.Label.PatientInfo" xml:space="preserve">
+    <value>البيانات الشخصية</value>
+  </data>
+  <data name="ProfileIndex.Label.VistitList" xml:space="preserve">
+    <value>قائمة مراجعاتي الطبية</value>
+  </data>
+  <data name="ProfileIndex.Label.LabAnswer" xml:space="preserve">
+    <value>نتائجي المختبرية </value>
+  </data>
+  <data name="ProfileView.Labels.Cancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="ProfileView.Labels.Day" xml:space="preserve">
+    <value>يوم</value>
+  </data>
+  <data name="ProfileView.Labels.Demography" xml:space="preserve">
+    <value>البيانات الشخصية</value>
+  </data>
+  <data name="ProfileView.Labels.Email" xml:space="preserve">
+    <value>البريد الإلكتروني</value>
+  </data>
+  <data name="ProfileView.Labels.FirstName" xml:space="preserve">
+    <value>الإسم</value>
+  </data>
+  <data name="ProfileView.Labels.LastName" xml:space="preserve">
+    <value>اللقب</value>
+  </data>
+  <data name="ProfileView.Labels.Month" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="ProfileView.Labels.Note" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="ProfileView.Labels.Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="ProfileView.Labels.Sex" xml:space="preserve">
+    <value>جنس</value>
+  </data>
+  <data name="ProfileView.Labels.Visits" xml:space="preserve">
+    <value>ویزیت مختبرات</value>
+  </data>
+  <data name="ProfileView.Labels.Year" xml:space="preserve">
+    <value>عام</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.Continue" xml:space="preserve">
+    <value>استمرار</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.EnterMobileNumber" xml:space="preserve">
+    <value>ادخل رقم موبايلك بدون صفر </value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.RegisterByCard" xml:space="preserve">
+    <value>التسجيل عن طريق البطاقة</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.Resend" xml:space="preserve">
+    <value>اعادة الإرسال</value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.return" xml:space="preserve">
+    <value>السابق</value>
+  </data>
+  <data name="RegisterForm.FormElement.Labels.ForgetPassword" xml:space="preserve">
+    <value>نسيت كلمة المرور؟</value>
+  </data>
+  <data name="RegisterForm.Labels.CompanyName" xml:space="preserve">
+    <value>بوابة الصحة</value>
+  </data>
+  <data name="RegisterForm.Labels.Continue" xml:space="preserve">
+    <value>التالي</value>
+  </data>
+  <data name="RegisterForm.Labels.EnterVerificationCode" xml:space="preserve">
+    <value>ادخل الرمز المرسل اليك </value>
+  </data>
+  <data name="RegisterForm.Labels.IncorrectUserNameOrPassword" xml:space="preserve">
+    <value>اسم المستخدم أو كلمة المرور خاطئة</value>
+  </data>
+  <data name="RegisterForm.Labels.LoginRegister" xml:space="preserve">
+    <value>تسجیل في البوابة الصحة</value>
+  </data>
+  <data name="RegisterForm.Labels.MobileNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="RegisterForm.Labels.NewPation" xml:space="preserve">
+    <value>إنشاء مريض جديد</value>
+  </data>
+  <data name="RegisterForm.Labels.Password" xml:space="preserve">
+    <value>ادخل كلمة المرور الجديدة هنا</value>
+  </data>
+  <data name="RegisterForm.Labels.RegisterByMobileNumber" xml:space="preserve">
+    <value>التسجيل من خلال رقم الموبايل </value>
+  </data>
+  <data name="RegisterForm.Labels.ResendCodeLater" xml:space="preserve">
+    <value>يمكنك اعادة المحاولة بعد</value>
+  </data>
+  <data name="RegisterForm.Labels.Second" xml:space="preserve">
+    <value>ثانية</value>
+  </data>
+  <data name="RegisterForm.Labels.SelectPassword" xml:space="preserve">
+    <value>انشاء كلمة مرور جديدة</value>
+  </data>
+  <data name="SearchForm.FormElement.Buttons.Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchForm.Labels.AtCenter" xml:space="preserve">
+    <value>في المرکز</value>
+  </data>
+  <data name="SearchForm.Labels.AtHome" xml:space="preserve">
+    <value>في المنزل</value>
+  </data>
+  <data name="SearchForm.Labels.City" xml:space="preserve">
+    <value>المحافظة</value>
+  </data>
+  <data name="SearchForm.Labels.Diurnal" xml:space="preserve">
+    <value>اليومي</value>
+  </data>
+  <data name="SearchForm.Labels.RadiologyCenterName" xml:space="preserve">
+    <value>مراکز الشعه</value>
+  </data>
+  <data name="SearchForm.Labels.Region" xml:space="preserve">
+    <value>المنطقة</value>
+  </data>
+  <data name="SearchForm.Labels.Search" xml:space="preserve">
+    <value>بحث</value>
+  </data>
+  <data name="SearchForm.Labels.SearchFilter" xml:space="preserve">
+    <value>تصفية البحث</value>
+  </data>
+  <data name="SearchForm.Labels.State" xml:space="preserve">
+    <value>المحافظة</value>
+  </data>
+  <data name="SearchGV.FormElement.Buttons.Interests" xml:space="preserve">
+    <value>أضف إلى المفضلة</value>
+  </data>
+  <data name="SearchGV.FormElement.Buttons.MoreDetails" xml:space="preserve">
+    <value>المزيد من التفاصيل</value>
+  </data>
+  <data name="SearchGV.Labels.Address" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="SearchGV.Labels.AtCenter" xml:space="preserve">
+    <value>في العيادة</value>
+  </data>
+  <data name="SearchGV.Labels.AtHome" xml:space="preserve">
+    <value>في المنزل</value>
+  </data>
+  <data name="SearchGV.Labels.PhoneNumber" xml:space="preserve">
+    <value>رقم الهاتف</value>
+  </data>
+  <data name="SendSms.Response.NewPassword" xml:space="preserve">
+    <value>كلمة سر جديدة : {code}</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.RefferFromId" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="RefferFrom" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>ابحث</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Type" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Name" xml:space="preserve">
+    <value>الأسم/الأسم بالانكليزي</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.TotalFile" xml:space="preserve">
+    <value>عدد المرفقات</value>
+  </data>
+  <data name="UploadNewTestResult" xml:space="preserve">
+    <value>تحميل نتيجة اختبار جديدة</value>
+  </data>
+  <data name="AnswerList" xml:space="preserve">
+    <value>قائمة الإجابات</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.FromDate" xml:space="preserve">
+    <value>من التاريخ</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ToDate" xml:space="preserve">
+    <value>الی التاريخ</value>
+  </data>
+  <data name="AddNewCovid" xml:space="preserve">
+    <value>إضافة كوفيد جديد</value>
+  </data>
+  <data name="CovidPatientList" xml:space="preserve">
+    <value>قائمة مرضى كوفيد 19</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.FullName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="AddNewRegistration" xml:space="preserve">
+    <value>إضافة تسجيل جديد</value>
+  </data>
+  <data name="PassengerRegistration" xml:space="preserve">
+    <value>قائمة المسافرین</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Result" xml:space="preserve">
+    <value>النتيجة</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Name" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Age" xml:space="preserve">
+    <value>العمر</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Status" xml:space="preserve">
+    <value>الحاله</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.RefferFrom" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Date" xml:space="preserve">
+    <value>التاریخ</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Status" xml:space="preserve">
+    <value>حالة ارسال الرسالة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.FullName" xml:space="preserve">
+    <value>الاسم</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Result" xml:space="preserve">
+    <value>النتيجة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.AnswerDate" xml:space="preserve">
+    <value>التاریخ</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.RefferFrom" xml:space="preserve">
+    <value>المصدر</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.GeneralStatuse" xml:space="preserve">
+    <value>الحاله</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Notice" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.PatientStatusId" xml:space="preserve">
+    <value>الحاله</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.AnswerDate" xml:space="preserve">
+    <value>التاریخ</value>
+  </data>
+  <data name="Import.Grid.Col.Fields.Notice" xml:space="preserve">
+    <value>ملحوظة</value>
+  </data>
+  <data name="TotalPatient" xml:space="preserve">
+    <value>إجمالي المريض</value>
+  </data>
+  <data name="TestResult" xml:space="preserve">
+    <value>النتيجة الفحص</value>
+  </data>
+  <data name="PatientSatusResult" xml:space="preserve">
+    <value>النتيجة حالة المريض</value>
+  </data>
+  <data name="CurrentDay" xml:space="preserve">
+    <value>اليوم الحالي</value>
+  </data>
+  <data name="CurrentMonth" xml:space="preserve">
+    <value>الشهر الحالي</value>
+  </data>
+  <data name="CurrentYear" xml:space="preserve">
+    <value>السنة الحالية</value>
+  </data>
+  <data name="Day" xml:space="preserve">
+    <value>یوم</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>شهر</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>سنة</value>
+  </data>
+  <data name="WithoutChoice" xml:space="preserve">
+    <value>Without Choice</value>
+  </data>
+  <data name="Positive" xml:space="preserve">
+    <value>إيجابي</value>
+  </data>
+  <data name="Negative" xml:space="preserve">
+    <value>سلبي</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.FromAnswerDate" xml:space="preserve">
+    <value>من التاريخ</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ToAnswerDate" xml:space="preserve">
+    <value>الی التاريخ</value>
+  </data>
+  <data name="AnswerDate" xml:space="preserve">
+    <value>تاريخ النتائج</value>
+  </data>
+  <data name="SendSuccess" xml:space="preserve">
+    <value>تم إرسال المعلومات بنجاح</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ResultId" xml:space="preserve">
+    <value>النتيجة</value>
+  </data>
+  <data name="LoginForm.Labels.ForgetPassword" xml:space="preserve">
+    <value>نسيت رقمك السري؟</value>
+  </data>
+  <data name="RegisterForm.Labels.IncorrectCode" xml:space="preserve">
+    <value>رمز التحقق غير صحیح</value>
+  </data>
+  <data name="RegisterForm.Labels.VerifyTheMobileNumber" xml:space="preserve">
+    <value>تاكيد رقم الموبايل </value>
+  </data>
+  <data name="RegisterForm.FormElement.Buttons.ResetPassword" xml:space="preserve">
+    <value>اعادة تعيين كلمة المرور</value>
+  </data>
+  <data name="CitySettingForm.FormElement.Buttons.NewItem" xml:space="preserve">
+    <value>Add a new city</value>
+  </data>
+  <data name="CitySettingForm.Labels.Add" xml:space="preserve">
+    <value>Add a new city</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.TitleLang2" xml:space="preserve">
+    <value>Title (Arabic)</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.IsActive" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.IsAdmin" xml:space="preserve">
+    <value>Is Admin</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="CityForm.FormElement.Fields.NoteLang2" xml:space="preserve">
+    <value>Note (Arabic)</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.TitleLang2" xml:space="preserve">
+    <value>Title (Arabic)</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.IsAdmin" xml:space="preserve">
+    <value>Is Admin</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.NoteLang2" xml:space="preserve">
+    <value>Note (Arabic)</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.IsActive" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="SettingForm.Grid.Col.Fields.Edit" xml:space="preserve">
+    <value>Action</value>
+  </data>
+  <data name="PrescriptionDetails.Label.clinic" xml:space="preserve">
+    <value>اسم العيادة</value>
+  </data>
+  <data name="PrescriptionDetails.Label.ConsumTime" xml:space="preserve">
+    <value>الأوقات</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Details" xml:space="preserve">
+    <value>التعليمات</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Doctor" xml:space="preserve">
+    <value>اسم الطبيب</value>
+  </data>
+  <data name="PrescriptionDetails.Label.DoctorNote" xml:space="preserve">
+    <value>الملاحظات</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Drug" xml:space="preserve">
+    <value>اسم الدواء</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Drugs" xml:space="preserve">
+    <value>قائمة الأدوية</value>
+  </data>
+  <data name="PrescriptionDetails.Label.LabTest" xml:space="preserve">
+    <value>التحاليل المطلوبة</value>
+  </data>
+  <data name="PrescriptionDetails.Label.TestName" xml:space="preserve">
+    <value>اسم التحليل</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Title" xml:space="preserve">
+    <value>الخطة العلاجية</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Address" xml:space="preserve">
+    <value>عنوان العيادة</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Certificate" xml:space="preserve">
+    <value>الشهادات</value>
+  </data>
+  <data name="PrescriptionDetails.Label.clinicInfo" xml:space="preserve">
+    <value>تعرف على طبيبك</value>
+  </data>
+  <data name="PrescriptionDetails.Label.DoctorName" xml:space="preserve">
+    <value>اسم الطبيب</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Speciality" xml:space="preserve">
+    <value>الإختصاص</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>تليفون العيادة</value>
+  </data>
+  <data name="RegisterForm.Labels.ErrorInResendMessage" xml:space="preserve">
+    <value>ارسال الرساله فشل</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ReceptionCode" xml:space="preserve">
+    <value>رقم النموذج</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.LatinName" xml:space="preserve">
+    <value>الاسم انكليزي </value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.passportNumber" xml:space="preserve">
+    <value>رقم الجواز</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.registerUserIds" xml:space="preserve">
+    <value>الموظف مدخل البيانات</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.answerUserIds" xml:space="preserve">
+    <value>الموظف مدخل النتيجة</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.nationalityIds" xml:space="preserve">
+    <value>الجنسیة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.passportIssuedDate" xml:space="preserve">
+    <value>تاريخ اصدار الجواز</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.registerUser" xml:space="preserve">
+    <value>الموظف مدخل البيانات</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.answerUser" xml:space="preserve">
+    <value>الموظف مدخل النتيجة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Nationality" xml:space="preserve">
+    <value>الجنسیة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Download" xml:space="preserve">
+    <value>تحمیل</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.LastName" xml:space="preserve">
+    <value>القب</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.ReceptionDate" xml:space="preserve">
+    <value>تاریخ الفحص</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.ReceptionCode" xml:space="preserve">
+    <value>رقم النموذج</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.FatherName" xml:space="preserve">
+    <value>الاسم الاب</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.GrandFatherName" xml:space="preserve">
+    <value>الاسم الجد</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.LatinName" xml:space="preserve">
+    <value>الأسم بالانكليزي </value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.Sex" xml:space="preserve">
+    <value>الجنس</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.BirthDate" xml:space="preserve">
+    <value>تاریخ الولاده</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.FileNo" xml:space="preserve">
+    <value>آخر 4 ارقام من الوصل</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.PassportNumber" xml:space="preserve">
+    <value>رقم الجواز</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.PassportIssuedDate" xml:space="preserve">
+    <value>تاريخ اصدار الجواز</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.NationalityId" xml:space="preserve">
+    <value>الجنسیة</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.ReceptionDate" xml:space="preserve">
+    <value>تاريخ الفحص</value>
+  </data>
+  <data name="NationalitySettingForm.FormElement.Buttons.NewItem" xml:space="preserve">
+    <value>أضف جنسیة جديدة</value>
+  </data>
+  <data name="NationalitySettingForm.Labels.Add" xml:space="preserve">
+    <value>أضف جنسیة جديدة</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.TitleLang2" xml:space="preserve">
+    <value>عنوان(بالعربی)</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.IsActive" xml:space="preserve">
+    <value>مفعل</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.IsAdmin" xml:space="preserve">
+    <value>مدیر</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>مذكرة</value>
+  </data>
+  <data name="NationalityForm.FormElement.Fields.NoteLang2" xml:space="preserve">
+    <value>مذكرة(بالعربی)</value>
+  </data>
+  <data name="SettingForm.FormElement.Buttons.Edit" xml:space="preserve">
+    <value>تعدیل</value>
+  </data>
+  <data name="SettingForm.FormElement.Buttons.Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="SettingForm.FormElement.Buttons.Save" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="SettingForm.FormElement.Buttons.SaveClose" xml:space="preserve">
+    <value>احفظ وأغلق</value>
+  </data>
+  <data name="Passenger.Mobile" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="Passenger.ReceptionCode" xml:space="preserve">
+    <value>رقم النموذج</value>
+  </data>
+  <data name="Passenger.Result" xml:space="preserve">
+    <value>النتیجه</value>
+  </data>
+  <data name="Passenger.Note" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="Passenger.Save" xml:space="preserve">
+    <value>حفظ </value>
+  </data>
+  <data name="Passenger.Search" xml:space="preserve">
+    <value>ابحث</value>
+  </data>
+  <data name="Passenger.Excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="Passenger.AddNewRegistration" xml:space="preserve">
+    <value>مراجع جديد</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="Passenger.PassengerRegistration" xml:space="preserve">
+    <value>قائمة المسافرین</value>
+  </data>
+  <data name="Covid.Download" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="DateRequired" xml:space="preserve">
+    <value>الرجاء إدخال التاريخ</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>مجموع</value>
+  </data>
+  <data name="TotalPositive" xml:space="preserve">
+    <value>مجموع موجب</value>
+  </data>
+  <data name="TotalNegative" xml:space="preserve">
+    <value>مجموع سلبي</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>حالة</value>
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>منطقة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.RegisterUserIds" xml:space="preserve">
+    <value>الموظف مدخل البيانات </value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.AnswerUserIds" xml:space="preserve">
+    <value>الموظف مدخل النتيجة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.NationalityIds" xml:space="preserve">
+    <value>الجنسیة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.Result" xml:space="preserve">
+    <value>النتیجة</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ReceptionFromDate" xml:space="preserve">
+    <value>من تاریخ الفحص</value>
+  </data>
+  <data name="SearchForm.FormElement.Fields.ReceptionToDate" xml:space="preserve">
+    <value>الی تاریخ الفحص</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Passport" xml:space="preserve">
+    <value>رقم الجواز/تاريخ اصدار الجواز</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.User" xml:space="preserve">
+    <value>الموظف مدخل البيانات/النتيجة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.CustomAction" xml:space="preserve">
+    <value>النتیجة</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.FirstName" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.SexId" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.BrithDate" xml:space="preserve">
+    <value>تاریخ الولادة</value>
+  </data>
+  <data name="Search.DoctorExperstion" xml:space="preserve">
+    <value>تخصص الطبیب</value>
+  </data>
+  <data name="HomePage.Labels.Slide1Item1" xml:space="preserve">
+    <value>صحتك و صحت احبابك بين ايديك</value>
+  </data>
+  <data name="HomePage.Labels.Slide1Item2" xml:space="preserve">
+    <value>كل الاختصاصات و أفضل الكفاءات</value>
+  </data>
+  <data name="HomePage.Labels.Slide1Item3" xml:space="preserve">
+    <value>بياناتك يمك ويم طبيبك</value>
+  </data>
+  <data name="HomePage.Labels.Slide2Item1" xml:space="preserve">
+    <value>تعبت من الإنتظار... `النتيجة هي توصلك</value>
+  </data>
+  <data name="HomePage.Labels.Slide2Item2" xml:space="preserve">
+    <value>بياناتك المختبرية مجتمعة ...</value>
+  </data>
+  <data name="HomePage.Labels.Slide2Item3" xml:space="preserve">
+    <value>اينما كنت .... انت مرتاح</value>
+  </data>
+  <data name="HomePage.Labels.Slide3Item1" xml:space="preserve">
+    <value>ادويتك جاهزة دائما</value>
+  </data>
+  <data name="HomePage.Labels.Slide3Item2" xml:space="preserve">
+    <value>تريد صيدلية قريبة عليك</value>
+  </data>
+  <data name="HomePage.Labels.Slide3Item3" xml:space="preserve">
+    <value>شارك وصفتك </value>
+  </data>
+  <data name="HomePage.Labels.Slide4Item1" xml:space="preserve">
+    <value>افضل الخدمات و انسب العروض</value>
+  </data>
+  <data name="HomePage.Labels.Slide4Item2" xml:space="preserve">
+    <value>خدمات متكاملة وراحة اكيدة </value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartClinic-Title" xml:space="preserve">
+    <value>العيادة الذكية</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartClinic-Description" xml:space="preserve">
+    <value>اضخم و اكفأ منصة متكاملة للأطباء. توثيق كل ما يخص بيانات المريض الطبية من مواعيد زيارات، وصفات دوائية، تأريخ مرضي ، فحص سريري ، نتائج مختبرية و شعاعية. يتميز بتزويد المستخدم بإحصائيات رائعة و يوفر البرنامج واجهات متنوعة لكل تخصص طبي بصورة منفصلة.</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartLab-Title" xml:space="preserve">
+    <value>المختبر الذكي</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartLab-Description" xml:space="preserve">
+    <value>منصة مختبرية مميزة تشمل الفحوصات و نتائجها بدقة و كفاءة عالية، احصائيات حسابية متكاملة و امكانية حصول المريض نتائجه بصورة الكترونية دون الحاجة للحصول عليها يدويا.</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartPharma-Title" xml:space="preserve">
+    <value>الصيدلية الذكية</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartPharma-Description" xml:space="preserve">
+    <value>منصة الصيادلة الأولى و مهندسي التجهيزات الطبية ، قاعدة بيانات عملاقة تحتوي على اكثر من 16 الف مفردة دوائية و غيرها من الميزات الفريدة.</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide1" xml:space="preserve">
+    <value>مستشفى </value>
+  </data>
+  <data name="PasswordForm.Labels.ForgetPassword" xml:space="preserve">
+    <value>نسيت كلمة المرور؟</value>
+  </data>
+  <data name="ProfileView.Labels.Edit" xml:space="preserve">
+    <value>تعديل بياناتي</value>
+  </data>
+  <data name="ProfileViewl.Labels.BirthPlace" xml:space="preserve">
+    <value>محل الولادة</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartHis-Title" xml:space="preserve">
+    <value>المستشفى الذكية</value>
+  </data>
+  <data name="HomePage.Labels.CenterSlider-SmartHis-Description" xml:space="preserve">
+    <value>الحلول المتكاملة و شمولية الخدمات الألكترونية هي رؤيتنا لتوفير منصة بمواصفات عالمية و تحاكي الواقع المحلي ومن اهم ما تتضمنه اقسام  الحسابات ، صور و التقارير الشعاعية ، العناية المركزة و الأقسام الطبية الأخرى.</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide2" xml:space="preserve">
+    <value>وزارة الصحة</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide3" xml:space="preserve">
+    <value>دائرة مدینة الطب</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide4" xml:space="preserve">
+    <value>مستشفى امل الحياة</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide5" xml:space="preserve">
+    <value>مستشفى امل الحياة</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide6" xml:space="preserve">
+    <value>دائرة الصحة النجف الاشرف</value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide7" xml:space="preserve">
+    <value>مستشفى الحياة النجف </value>
+  </data>
+  <data name="HomePage.Labels.OurCustomersSlider-Slide8" xml:space="preserve">
+    <value>مستشفى الامل للاورام النجف </value>
+  </data>
+  <data name="HomePage.Labels.OurClients" xml:space="preserve">
+    <value>عملائنا</value>
+  </data>
+  <data name="HomePage.Labels.OurOtherProducts" xml:space="preserve">
+    <value>منتجانتا الأخرى</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Title" xml:space="preserve">
+    <value>عالم جديد في الخدمات الطبية</value>
+  </data>
+  <data name="HomePage.FormElement.Fields.Title2" xml:space="preserve">
+    <value> بياناتك الصحية وياك وين متروح</value>
+  </data>
+  <data name="Site.Title" xml:space="preserve">
+    <value>بوابة الصحة</value>
+  </data>
+  <data name="ActiveCard.Response.Success" xml:space="preserve">
+    <value>add {ExpireDate} date expire</value>
+  </data>
+  <data name="CitySettingForm.FormElement.Fields.ProvinceId" xml:space="preserve">
+    <value>Province</value>
+  </data>
+  <data name="CitySettingForm.Labels.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="ZoneSettingForm.FormElement.Buttons.NewItem" xml:space="preserve">
+    <value>Add a new zone</value>
+  </data>
+  <data name="ZoneSettingForm.FormElement.Fields.CityId" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.TitleLang2" xml:space="preserve">
+    <value>Title (Arabic)</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.IsActive" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.IsAdmin" xml:space="preserve">
+    <value>Is Admin</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="ZoneForm.FormElement.Fields.NoteLang2" xml:space="preserve">
+    <value>Note (Arabic)</value>
+  </data>
+  <data name="ZoneSettingForm.Labels.Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="RegisterForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>Name Of Center</value>
+  </data>
+  <data name="CardFrom.Response.NotFound" xml:space="preserve">
+    <value>رقم التفعیل ما موجود</value>
+  </data>
+  <data name="PrescriptionDetails.Label.Phone" xml:space="preserve">
+    <value>الموبایل</value>
+  </data>
+  <data name="CardFrom.Response.UseOtherPerson" xml:space="preserve">
+    <value>رقم التفعیل مستخدم سابقا</value>
+  </data>
+  <data name="SendSms.Response.FromExcel" xml:space="preserve">
+    <value>{FullName} {newline} نتیجة : {Result} {newline} {LinkAnswer}</value>
+  </data>
+  <data name="SendSms.Response.ReceptionVerifyCode" xml:space="preserve">
+    <value>{FullName} {newline} التسلسل: {ReceptionCode} {newline} رقم التأكيد :{Code} {newline} nhs.iq</value>
+  </data>
+  <data name="SendSms.Response.VerifyCode" xml:space="preserve">
+    <value> مرحبا بك في البوابة الصحية رمز التفعيل : {code}</value>
+  </data>
+  <data name="GlobalForm.Response.VerifyCodeLimitedTotal" xml:space="preserve">
+    <value>يمكنك استلام ما يصل إلى ثلاثة رموز تحقق في إجمالي واحد</value>
+  </data>
+  <data name="ReceptionCovidForm.Response.AnswerNotif" xml:space="preserve">
+    <value>{FullName} {newline}   نتیجة : {newline} {LinkAnswer} {newline}</value>
+  </data>
+  <data name="ProfileIndex.Label.Radiology" xml:space="preserve">
+    <value>التقاریر الشعاعیة</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Expertise" xml:space="preserve">
+    <value>Expertise</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.CostVisit" xml:space="preserve">
+    <value>Cost Visit</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.Center" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.PhoneClinic" xml:space="preserve">
+    <value>Phone Clinic</value>
+  </data>
+  <data name="SearchForm.Grid.Col.Fields.CooperationDate" xml:space="preserve">
+    <value>Cooperation Date</value>
+  </data>
+  <data name="DoctorForm.FieldValidation.Required.FatherName" xml:space="preserve">
+    <value>اكمل البيانات المطلوبة رجاءا</value>
+  </data>
+  <data name="DoctorForm.FieldValidation.Required.FirstName" xml:space="preserve">
+    <value>اكمل البيانات المطلوبة رجاءا</value>
+  </data>
+</root>

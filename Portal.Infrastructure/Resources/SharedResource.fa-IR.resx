@@ -1,0 +1,1785 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GlobalForm.FieldValidation.Title" xml:space="preserve">
+    <value>عنوان اجباری است</value>
+  </data>
+  <data name="LoginForm.FieldValidation.Required.Language" xml:space="preserve">
+    <value>زبان را انتخاب نکردید</value>
+  </data>
+  <data name="LoginForm.FieldValidation.Required.Password" xml:space="preserve">
+    <value>رمز عبور اجباری است</value>
+  </data>
+  <data name="LoginForm.FieldValidation.Required.UserName" xml:space="preserve">
+    <value>نام کاربری اجباری است</value>
+  </data>
+  <data name="PatientForm.Response.EditPatientSuccess" xml:space="preserve">
+    <value>ویرایش بیمار با موفقیت انجام شد</value>
+  </data>
+  <data name="PatientForm.Response.SavePatientSuccess" xml:space="preserve">
+    <value>ثبت بیمار با موفقیت انجام شد</value>
+  </data>
+  <data name="PatientForm.FieldValidation.Required.Age" xml:space="preserve">
+    <value>سن اجباری است</value>
+  </data>
+  <data name="PatientForm.FieldValidation.Required.FirstName" xml:space="preserve">
+    <value>نام اجباری است</value>
+  </data>
+  <data name="PatientForm.FieldValidation.Required.LastName" xml:space="preserve">
+    <value>نام خانوادگی اجباری است</value>
+  </data>
+  <data name="PatientForm.FieldValidation.Required.PhoneOrMobile" xml:space="preserve">
+    <value>تلفن یا موبایل را وارد کنید</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.UserName" xml:space="preserve">
+    <value>نام کاربری</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.HisNumber" xml:space="preserve">
+    <value>HisNumber</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.FileNo" xml:space="preserve">
+    <value>شماره پرونده</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.SexId" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.FirstName" xml:space="preserve">
+    <value>نام </value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.MaritalStatusId" xml:space="preserve">
+    <value>وضعیت تاهل</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.BirthPlaceId" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.Phone" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.CreateDate" xml:space="preserve">
+    <value>تاریخ تشکیل پرونده</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="PatientForm.FormElement.Buttons.BtnSave" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="PatientForm.FormElement.Buttons.BtnSaveAndNew" xml:space="preserve">
+    <value>ثبت و بیمارجدید</value>
+  </data>
+  <data name="PatientForm.FormElement.Buttons.BtnSaveAndReciption" xml:space="preserve">
+    <value>ثبت و رفتن به پذیرش</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.GreaterThan.DoctorId" xml:space="preserve">
+    <value>پزشک اجباری است</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.GreaterThan.ReceptionTypeId" xml:space="preserve">
+    <value>نوع پذیرش اجباری است</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.GreaterThan.SectionId" xml:space="preserve">
+    <value>بخش اجباری است</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.Required.PatientId" xml:space="preserve">
+    <value>کدشناسایی اجباری است</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.Required.ReceptionDate" xml:space="preserve">
+    <value>تاریج پذیرش اجباری است</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.Required.RefferDate" xml:space="preserve">
+    <value>تاریخ مراجعه اجباری است</value>
+  </data>
+  <data name="PatientForm.Response.AddPatientExtraInfoSuccess" xml:space="preserve">
+    <value>اطلاعات تکمیلی بیمار با موفقیت ثبت گردید</value>
+  </data>
+  <data name="PatientForm.Response.EditPatientExtraInfoSuccess" xml:space="preserve">
+    <value>ویرایش اطلاعات تکمیلی بیمار با موفقیت صورت گرفت</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.NationallityId" xml:space="preserve">
+    <value>ملیت</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.AllergyId" xml:space="preserve">
+    <value>حساسیت اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.BloodGroupId" xml:space="preserve">
+    <value>گروه خونی اجباری</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.ChronicIllness" xml:space="preserve">
+    <value>بیماری زمینه ای  اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.EducationId" xml:space="preserve">
+    <value>تحصیلات اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.Height" xml:space="preserve">
+    <value>قد اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.IsDrinking" xml:space="preserve">
+    <value>مشروبات اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.IsSmoking" xml:space="preserve">
+    <value>سیگار اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.JobId" xml:space="preserve">
+    <value>شغل اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.NationallityId" xml:space="preserve">
+    <value>ملیت اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.Note" xml:space="preserve">
+    <value>توضیحات اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.RhId" xml:space="preserve">
+    <value>RhId</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.Weight" xml:space="preserve">
+    <value>وزن اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.WorkAdress" xml:space="preserve">
+    <value>آدرس محل کار اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FieldValidation.Required.WorkPhone" xml:space="preserve">
+    <value>تلفن محل کار اجباری است</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Buttons.AddNew" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.AllergyId" xml:space="preserve">
+    <value>حساسسیت</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.BirthPlaceId" xml:space="preserve">
+    <value>محل تولد</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.BloodGroupId" xml:space="preserve">
+    <value>گروه خونی</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.ChronicIllnessId" xml:space="preserve">
+    <value>بیماری زمینه ای</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.EducationId" xml:space="preserve">
+    <value>تحصیلات</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.Email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.Height" xml:space="preserve">
+    <value>قد</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.IsDrinking" xml:space="preserve">
+    <value>مشروبات</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.IsSmoking" xml:space="preserve">
+    <value>سیگار </value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.IssuePlaceId" xml:space="preserve">
+    <value>محل صدور</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.JobId" xml:space="preserve">
+    <value>شغل</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.RhId" xml:space="preserve">
+    <value>RhId</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.ShNo" xml:space="preserve">
+    <value>شماره شناسنامه</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.WorkAddress" xml:space="preserve">
+    <value>آدرس محل کار</value>
+  </data>
+  <data name="PatientSearchForm.FormElement.Fields.WorkPhone" xml:space="preserve">
+    <value>تلفن محل کار</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.BirthDate" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.CurrentIllness" xml:space="preserve">
+    <value>وضعیت عمومی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.CurrentIllnessId" xml:space="preserve">
+    <value>بیماری فعلی </value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.DoctorId" xml:space="preserve">
+    <value>پزشک معالج</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.FileNo" xml:space="preserve">
+    <value>شماره پرونده</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Hisno" xml:space="preserve">
+    <value>Hisno</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.InternalId" xml:space="preserve">
+    <value>کد شناسایی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.NationallityId" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.ReceptionId" xml:space="preserve">
+    <value>کد پذیرش</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.ReceptionTypeId" xml:space="preserve">
+    <value>نوع پذیرش</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.RefferReasonId" xml:space="preserve">
+    <value>علت مراجعه</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.SexId" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Buttons.BtnSave" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Buttons.BtnSaveAndProvisionServices" xml:space="preserve">
+    <value>ثبت و ارائه خدمات</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Buttons.BtnSaveAndReception" xml:space="preserve">
+    <value>ثبت و پذیرش جدید</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Advice" xml:space="preserve">
+    <value>توصیه ها</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.CreateDate" xml:space="preserve">
+    <value>تاریخ تشکیل پرونده</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.FatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.Phone" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.ReceptionDate" xml:space="preserve">
+    <value>تاریخ پذیرش</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.RefferDate" xml:space="preserve">
+    <value>تاریخ مراجعه</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.InternalId" xml:space="preserve">
+    <value>کد شناسایی</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.Doctor" xml:space="preserve">
+    <value>پزشک معالج</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.HisNumber" xml:space="preserve">
+    <value>HisNumber</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.InternalCode" xml:space="preserve">
+    <value>شماره پرونده</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.MobileNumber" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.PhoneNumber" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.ReceptionDateTo" xml:space="preserve">
+    <value>تا تاریخ</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.ReceptionDateToDayFrom" xml:space="preserve">
+    <value>تاریخ پذیرش امروز</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.ReceptionId" xml:space="preserve">
+    <value>کد پذیرش</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.ReceptionTypeId" xml:space="preserve">
+    <value>نوع پذیرش</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="ReceptionServiceForm.FieldValidation.GreaterThan.ReceptoinId" xml:space="preserve">
+    <value>فیلد</value>
+  </data>
+  <data name="LoginForm.FieldValidation.MinimumLength.Password" xml:space="preserve">
+    <value>حداقل رمز عبور شش کاراکتر می باشد</value>
+  </data>
+  <data name="PatientForm.FormElement.Fields.FatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.Email" xml:space="preserve">
+    <value>ایمیل</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.Height" xml:space="preserve">
+    <value>قد</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.IsDrinking" xml:space="preserve">
+    <value>مشروبات</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.IsSmoking" xml:space="preserve">
+    <value>سیگار</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.ShNo" xml:space="preserve">
+    <value>شماره شناسنامه</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.WorkAdress" xml:space="preserve">
+    <value>آدرس محل کار</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.WorkPhone" xml:space="preserve">
+    <value>تلفن محل کار</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Buttons.BtnSave" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.ComplexField" xml:space="preserve">
+    <value>جستجوی لحظه ای</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.FileNo" xml:space="preserve">
+    <value>شماره پرونده</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.FullName" xml:space="preserve">
+    <value>نام کامل</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.HisNo" xml:space="preserve">
+    <value>HisNo</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.InternalId" xml:space="preserve">
+    <value>کدشناسایی</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.LastReceptionId" xml:space="preserve">
+    <value>کدآخرین پذیرش</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>موبایل</value>
+  </data>
+  <data name="HeaderSearchForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.generalStatusId" xml:space="preserve">
+    <value>کدوضعیت عمومی</value>
+  </data>
+  <data name="ReceptionForm.FormElement.Fields.maritalStatusId" xml:space="preserve">
+    <value>کدوضعیت تاهل</value>
+  </data>
+  <data name="ReceptionForm.FieldValidation.GreaterThan.BedId" xml:space="preserve">
+    <value>شماره تخت اجباری است</value>
+  </data>
+  <data name="CashForm.FormElement.Buttons.BtnBilling" xml:space="preserve">
+    <value>صدورقبض</value>
+  </data>
+  <data name="CashForm.FormElement.Buttons.BtnEdit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.BillNumber" xml:space="preserve">
+    <value>شماره قبض</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.CashDiscount" xml:space="preserve">
+    <value>تخفیف صندوق</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.CashID" xml:space="preserve">
+    <value>صندوق</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.FinalPrice" xml:space="preserve">
+    <value>قیمت نهائی</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.FullName" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.PaymentPrice" xml:space="preserve">
+    <value>مبلغ پرداختی</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.PaymentStatus" xml:space="preserve">
+    <value>وضعیت پرداخت</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.ReceptionID" xml:space="preserve">
+    <value>کدپذیرش</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.ReminingAmount" xml:space="preserve">
+    <value>مبلغ باقیمانده</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="CashForm.FormElement.Fields.TotalDiscount" xml:space="preserve">
+    <value>جمع تخفیفات</value>
+  </data>
+  <data name="CashForm.Grid.Col.Btn.Preview" xml:space="preserve">
+    <value>مشاهده</value>
+  </data>
+  <data name="CashForm.Grid.Col.Buttons.Debtor" xml:space="preserve">
+    <value>بدهکار</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.FullName" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.Price" xml:space="preserve">
+    <value>مبلغ</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.ReceptionID" xml:space="preserve">
+    <value>کدپذیرش</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="CashForm.Grid.Col.Fields.TicketNumber" xml:space="preserve">
+    <value>شماره قبض</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.Date" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.DoctorDiscountANDSectionDiscount" xml:space="preserve">
+    <value>تخفیف پزشک و تخفیف بخش</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.DoctorId" xml:space="preserve">
+    <value>دکتر</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.ExtraPayment" xml:space="preserve">
+    <value>سهم تامین کننده</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.FinalPrice" xml:space="preserve">
+    <value>مبلغ نهایی</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.PatientShare" xml:space="preserve">
+    <value>سهم بیمار</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.Price" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.PriceMethodTypeId" xml:space="preserve">
+    <value>روش محاسبه تعرفه</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.Quantity" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="CashForm.GridBottom.Col.Fields.TotalPrice" xml:space="preserve">
+    <value>مبلغ کل</value>
+  </data>
+  <data name="CashForm.GridButtom.Col.Fields.Title" xml:space="preserve">
+    <value>سرویس</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Buttons.Cancel" xml:space="preserve">
+    <value>رد</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Buttons.Debtor" xml:space="preserve">
+    <value>بدهکار</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Buttons.Preview" xml:space="preserve">
+    <value>مشاهده</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Buttons.Reception" xml:space="preserve">
+    <value>پذیرش</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.Action" xml:space="preserve">
+    <value>عملیات</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.BillNumber" xml:space="preserve">
+    <value>شماره قبض</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.FullName" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.InternalId" xml:space="preserve">
+    <value>کدشناسائی</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.NatinalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.Price" xml:space="preserve">
+    <value>مبلغ</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.ReceptionDate" xml:space="preserve">
+    <value>تاریخ پذیرش</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.ReceptionId" xml:space="preserve">
+    <value>کدپذیرش</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="CashWaitingForm.Grid.Col.Fields.Status" xml:space="preserve">
+    <value>وضعیت</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Buttons.PreviewCashToDay" xml:space="preserve">
+    <value>مشاهده صندوق امروز</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Buttons.Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.BillNumber" xml:space="preserve">
+    <value>شماره قبض</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.DoctorId" xml:space="preserve">
+    <value>دکتر</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.FileNO" xml:space="preserve">
+    <value>شماره پرونده</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.FromDate" xml:space="preserve">
+    <value>ازتاریخ</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.FullName" xml:space="preserve">
+    <value>نام و نام حانوادگی</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.HISNumber" xml:space="preserve">
+    <value>HISNumber</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>موبایل</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.ReceptionID" xml:space="preserve">
+    <value>کدپذیرش</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.ReceptionType" xml:space="preserve">
+    <value>نوع پذیرش</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="CashWaitingListForm.FormElement.Fields.ToDate" xml:space="preserve">
+    <value>تا تاریخ</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Button.BtnSaveReception" xml:space="preserve">
+    <value>ثبت پذیرش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Buttons.BtnServiceInsert" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.BirthDate" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.CreateDate" xml:space="preserve">
+    <value>تاریخ تشکیل پرونده</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.CreateServiceDate" xml:space="preserve">
+    <value>تاریخ پذیرش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.DoctorID" xml:space="preserve">
+    <value>پزشک</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.HisNumber" xml:space="preserve">
+    <value>HisNumber</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.InternalId" xml:space="preserve">
+    <value>کدشناسایی</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.MobileNumber" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ReceptionDate" xml:space="preserve">
+    <value>تاریخ پذیرش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ReceptionId" xml:space="preserve">
+    <value>کدپذیرش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ReceptionType" xml:space="preserve">
+    <value>نوع پذیرش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.RefferDate" xml:space="preserve">
+    <value>تاریخ مراجعه</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceDoctorDiscount" xml:space="preserve">
+    <value>تخفیف دکتر</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceDoctorId" xml:space="preserve">
+    <value>دکتر</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceDoctorPercent" xml:space="preserve">
+    <value>درصد پزشک</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceExtraPayment" xml:space="preserve">
+    <value>سهم تامین کننده</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceFinalPrice" xml:space="preserve">
+    <value>قیمت نهایی</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceGroupId" xml:space="preserve">
+    <value>همه گروه ها</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceId" xml:space="preserve">
+    <value>سرویس</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceNote" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceNurseId" xml:space="preserve">
+    <value>مجری</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServicePatientShare" xml:space="preserve">
+    <value>سهم بیمار</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServicePrice" xml:space="preserve">
+    <value>قیمت واحد</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServicePriceMethodTypeId" xml:space="preserve">
+    <value>روش محاسبه تعرفه</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceProvidershare" xml:space="preserve">
+    <value>مازاد پرداختی</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceQuantity" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceSectionDiscount" xml:space="preserve">
+    <value>تخفیف بخش</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceSectionId" xml:space="preserve">
+    <value>بخش ارائه دهنده</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.ServiceTypeId" xml:space="preserve">
+    <value>نوع سرویس</value>
+  </data>
+  <data name="OutPatientServiceForm.FormElement.Fields.SexId" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.Btn.BtnDelete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.Btn.BtnEdit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.ServiceDate" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.ServiceFinalPrice" xml:space="preserve">
+    <value>قیمت نهایی</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.ServicePrice" xml:space="preserve">
+    <value>قیمت</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.ServiceQuantity" xml:space="preserve">
+    <value>تعداد</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.ServiceSection" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.Title" xml:space="preserve">
+    <value>سرویس</value>
+  </data>
+  <data name="OutPatientServiceForm.Grid.Col.Service.TitleCode" xml:space="preserve">
+    <value>کد سرویس</value>
+  </data>
+  <data name="PatientForm.Grid.Col.Btn.IntoFile" xml:space="preserve">
+    <value>ورود به پرونده</value>
+  </data>
+  <data name="PatientForm.Grid.Col.Btn.Reception" xml:space="preserve">
+    <value>پذیرش</value>
+  </data>
+  <data name="PatientForm.Grid.Col.FullName" xml:space="preserve">
+    <value>نام و نام خانوادگی</value>
+  </data>
+  <data name="PatientForm.Grid.Col.InternalID" xml:space="preserve">
+    <value>کدشناسائی</value>
+  </data>
+  <data name="PatientForm.Grid.Col.Reception.NationalCode" xml:space="preserve">
+    <value>کدملی</value>
+  </data>
+  <data name="PatientForm.Grid.Col.ReceptionLastID" xml:space="preserve">
+    <value>کدآخرین پذیرش</value>
+  </data>
+  <data name="PatientForm.Grid.Col.RefferDate" xml:space="preserve">
+    <value>تاریخ مراجعه</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.FormElement.Buttons.DiagnosisBtnSave" xml:space="preserve">
+    <value>ثبت تشخیص</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.FormElement.Fields.DiagnosisICD9" xml:space="preserve">
+    <value>ICD9</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.FormElement.Fields.DiagnosisTitle" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.FormElement.FieldsDiagnosis.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.allergyId" xml:space="preserve">
+    <value>آلرژی</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.birthPlaceId" xml:space="preserve">
+    <value>محل تولد</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.bloodGroupId" xml:space="preserve">
+    <value>گروه خونی</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.educationId" xml:space="preserve">
+    <value>تحصیلات</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.illnessId" xml:space="preserve">
+    <value>بیماری زمینه ای</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.issuePlaceId" xml:space="preserve">
+    <value>محل صدور</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.jobId" xml:space="preserve">
+    <value>شغل</value>
+  </data>
+  <data name="PatientExtraInfoForm.FormElement.Fields.rhId" xml:space="preserve">
+    <value>rhId</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.Response.DeleteReceptionDiagnoticeSuccess" xml:space="preserve">
+    <value>علائم حیاتی با موفقیت حذف شد</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.Response.EditReceptionDiagnoticeSuccess" xml:space="preserve">
+    <value>علائم حیاتی  با موفقیت ویرایش شد</value>
+  </data>
+  <data name="ReceptionDiagnosisServiceForm.Response.SaveReceptionDiagnoticeSuccess" xml:space="preserve">
+    <value>علائم حیاتی  با موفقیت ثبت شد</value>
+  </data>
+  <data name="BedForm.Response.EditBedSuccess" xml:space="preserve">
+    <value>تخت با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="BedForm.Response.SaveBedSuccess" xml:space="preserve">
+    <value>تخت با موفقیت ثبت گردید</value>
+  </data>
+  <data name="CashForm.Response.EditCashSuccess" xml:space="preserve">
+    <value>صندوق با موفقیت بروز رسانی شد</value>
+  </data>
+  <data name="CashForm.Response.SaveCashError" xml:space="preserve">
+    <value>ثبت صندوق با خطا مواجه شد</value>
+  </data>
+  <data name="CashForm.Response.SaveCashSuccess" xml:space="preserve">
+    <value>صندوق با موفقیت ثبت شد</value>
+  </data>
+  <data name="DoctorForm.Response.EditDoctorSuccess" xml:space="preserve">
+    <value>پزشک با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="DoctorForm.Response.SaveDoctorSuccess" xml:space="preserve">
+    <value>پزشک با موفقیت ثبت شد</value>
+  </data>
+  <data name="IIllnessForm.Response.DeleteIIllnessSuccess" xml:space="preserve">
+    <value>بیماری با موفقیت حذف شد</value>
+  </data>
+  <data name="IIllnessForm.Response.EditIIllnessSuccess" xml:space="preserve">
+    <value>بیماری با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="IIllnessForm.Response.SaveIIllnessSuccess" xml:space="preserve">
+    <value>بیماری جدید با موفقیت ثبت شد</value>
+  </data>
+  <data name="OutPatientServiceForm.Response.DeleteReceptionServiceSuccess" xml:space="preserve">
+    <value>خدمت با موفقیت حذف شد</value>
+  </data>
+  <data name="OutPatientServiceForm.Response.EditReceptionServiceSuccess" xml:space="preserve">
+    <value>خدمت با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="OutPatientServiceForm.Response.SaveReceptionServiceSuccess" xml:space="preserve">
+    <value>خدمت جدید با موفقیت اضافه شد</value>
+  </data>
+  <data name="ReceptionForm.Response.PatientNotFound" xml:space="preserve">
+    <value>بیمار موردنظر یافت نشد</value>
+  </data>
+  <data name="RoomForm.Response.EditRoomSuccess" xml:space="preserve">
+    <value>اتاق با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="RoomForm.Response.SaveRoomSuccess" xml:space="preserve">
+    <value>اتاق با موفقیت ثبت شد</value>
+  </data>
+  <data name="ServicesForm.Response.EditServiceSuccess" xml:space="preserve">
+    <value>خدمت با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="ServicesForm.Response.SaveServiceSuccess" xml:space="preserve">
+    <value>خدمت با موفقیت ثبت شد</value>
+  </data>
+  <data name="ServicesForm.Response.SetStatusServiceSuccess" xml:space="preserve">
+    <value>وضیعت خدمت بروزرسانی شد</value>
+  </data>
+  <data name="VitalSignsForm.Response.DeleteVitalSignsSuccess" xml:space="preserve">
+    <value>علائم حیاتی با موفقیت حذف شد</value>
+  </data>
+  <data name="VitalSignsForm.Response.EditVitalSignsSuccess" xml:space="preserve">
+    <value>علائم حیاتی با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="VitalSignsForm.Response.SaveVitalSignsSuccess" xml:space="preserve">
+    <value>علائم حیاتی با موفقیت ثبت شد</value>
+  </data>
+  <data name="LoginForm.Response.UserNotFound" xml:space="preserve">
+    <value>نام کاربری یا رمز عبور اشتباه است</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.Button.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.IsActive" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.LocalCode" xml:space="preserve">
+    <value>کدبخش</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.Phone" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.SectionTypeId" xml:space="preserve">
+    <value>نوع بخش</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.SuperVisorPersonelId" xml:space="preserve">
+    <value>مسئول بخش</value>
+  </data>
+  <data name="SectionsSettingForm.FormElement.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Button.Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Button.Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.IsActive" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.LocalCode" xml:space="preserve">
+    <value>کدبخش</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Phone" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.SectionTypeId" xml:space="preserve">
+    <value>نوع بخش</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.SuperVisorPersonelId" xml:space="preserve">
+    <value>مسئول بخش</value>
+  </data>
+  <data name="SectionsSettingForm.Grid.Col.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.BloodPressure" xml:space="preserve">
+    <value>فشارخون</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Bmi" xml:space="preserve">
+    <value>Bmi</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.BodyMassIndexes" xml:space="preserve">
+    <value>چگالی</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Bpmean" xml:space="preserve">
+    <value>Bpmean</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Breathing" xml:space="preserve">
+    <value>تنفس</value>
+  </data>
+  <data name="VitalSignsForm.FormElementFields..Buttons.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.CheckBox.Confusion" xml:space="preserve">
+    <value>گیج اختلال شناختی</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.CheckBox.HighRiskStatus" xml:space="preserve">
+    <value>وضعیت پرخطر</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.CheckBox.PhysicalStress" xml:space="preserve">
+    <value>دیسترس جسمی</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.CheckBox.PsychologicalStress" xml:space="preserve">
+    <value>دیسترس روانی</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.CreateDate" xml:space="preserve">
+    <value>تاریخ</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Creatinine" xml:space="preserve">
+    <value>کراتین</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Diastolic" xml:space="preserve">
+    <value>فشارخون دیاستول</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Gfr" xml:space="preserve">
+    <value>Gfr</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Height" xml:space="preserve">
+    <value>قد</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توصیه ها</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.PulseRate" xml:space="preserve">
+    <value>ضربان</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.SkinRace" xml:space="preserve">
+    <value>SkinRace</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Spo2" xml:space="preserve">
+    <value>Spo2</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Systolic" xml:space="preserve">
+    <value>فشارخون سیستول</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Temperature" xml:space="preserve">
+    <value>دما</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.UserFullName" xml:space="preserve">
+    <value>کاربرثبت کننده</value>
+  </data>
+  <data name="VitalSignsForm.FormElement.Fields.Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.BloodPressure" xml:space="preserve">
+    <value>فشارخون</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Bmi" xml:space="preserve">
+    <value>Bmi</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.BodyMassIndexes" xml:space="preserve">
+    <value>چگالی</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Bpmean" xml:space="preserve">
+    <value>Bpmean</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Breathing" xml:space="preserve">
+    <value>تنفس</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Confusion" xml:space="preserve">
+    <value>گیج اختلال شناختی</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Diastolic" xml:space="preserve">
+    <value>فشارخون دیاستول</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Gfr" xml:space="preserve">
+    <value>Gfr</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Height" xml:space="preserve">
+    <value>قد</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.HighRiskStatus" xml:space="preserve">
+    <value>وضعیت پرخطر</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.PhysicalStress" xml:space="preserve">
+    <value>دیسترس جسمی</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.PsychologicalStress" xml:space="preserve">
+    <value>دیسترس روانی</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.PulseRate" xml:space="preserve">
+    <value>ضربان</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.SkinRace" xml:space="preserve">
+    <value>SkinRace</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Spo2" xml:space="preserve">
+    <value>Spo2</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Systolic" xml:space="preserve">
+    <value>فشارخون سیستول</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Temperature" xml:space="preserve">
+    <value>دما</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Weight" xml:space="preserve">
+    <value>وزن</value>
+  </data>
+  <data name="BeadSettingForm.Form.Fields.BedNo" xml:space="preserve">
+    <value>شماره تخت</value>
+  </data>
+  <data name="BeadSettingForm.Form.Fields.BedPhone" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="BeadSettingForm.Form.Fields.BedTypeTitle" xml:space="preserve">
+    <value>نوع تخت</value>
+  </data>
+  <data name="BeadSettingForm.Form.Fields.CheckBox.Active" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="BeadSettingForm.Form.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="BeadSettingForm.FormElement.Fields.LocalCode" xml:space="preserve">
+    <value>کد</value>
+  </data>
+  <data name="BeadSettingForm.FormElement.Fields.RoomNo" xml:space="preserve">
+    <value>شماره اتاق</value>
+  </data>
+  <data name="BeadSettingForm.FormElement.Fields.SectionTitle" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="BeadSettingForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.BedNo" xml:space="preserve">
+    <value>شماره تخت</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.BedPhone" xml:space="preserve">
+    <value>شماره تلفن</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.BedTypeTitle" xml:space="preserve">
+    <value>نوع تخت</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.Buttons.Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.Buttons.Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.LocalCode" xml:space="preserve">
+    <value>کد</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.RoomNo" xml:space="preserve">
+    <value>شماره اتاق</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="BeadSettingForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>اتاق</value>
+  </data>
+  <data name="DiagnosisSettingForm..Form.Fields.Button.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.Active" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.ICD9" xml:space="preserve">
+    <value>ICD9</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.LocalCode" xml:space="preserve">
+    <value>کد داحلی</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="DiagnosisSettingForm.FormElement.Fields.TitleLang2" xml:space="preserve">
+    <value>عنوان زبان دوم</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.Active" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.Button.Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.Button.Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.ICD9" xml:space="preserve">
+    <value>ICD9</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="DiagnosisSettingForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Address" xml:space="preserve">
+    <value>آدرس</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.AddressClinic" xml:space="preserve">
+    <value>آدرس مطب</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.BirthDate" xml:space="preserve">
+    <value>تاریخ تولد</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Buttons.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CheckBox.IsEmergency" xml:space="preserve">
+    <value>اورژانس</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CheckBox.IsHospitalization" xml:space="preserve">
+    <value>بستری</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CheckBox.IsOutpatient" xml:space="preserve">
+    <value>سرپایی</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CheckBox.IsSurgeryRoom" xml:space="preserve">
+    <value>اتاق عمل</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CooperationDate" xml:space="preserve">
+    <value>تاریخ همکاری</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.CreditDate" xml:space="preserve">
+    <value>تاریخ اعتبار</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Email" xml:space="preserve">
+    <value>رایانامه</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.ExpertiseId" xml:space="preserve">
+    <value>تخصص</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.FatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.FirstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.LastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.MedicalSystemNo" xml:space="preserve">
+    <value>شماره نظام پزشکی</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Mobile" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.NationalCode" xml:space="preserve">
+    <value>کد ملی</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.Phone" xml:space="preserve">
+    <value>تلفن منزل</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.PhoneClinic" xml:space="preserve">
+    <value>تلفن مطب</value>
+  </data>
+  <data name="DoctorSettingForm.FormElement.Fields.SexId" xml:space="preserve">
+    <value>جنسیت</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.Buttons.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.CheckBox.IsActive" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.CheckBox.IsAdmin" xml:space="preserve">
+    <value>از سمت مدیر وارد شده</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.CheckBox.IsSpecial" xml:space="preserve">
+    <value>جزو بیماری های خاص</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.IcdCodeId" xml:space="preserve">
+    <value>کدIcdCode</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.NoteLange2" xml:space="preserve">
+    <value>توضیحات زبان دوم</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="IllnessSettingForm.FormElement.Fields.TitleLang2" xml:space="preserve">
+    <value>عنوان زبان دوم</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.Buttons.Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.Buttons.Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.IcdCodeId" xml:space="preserve">
+    <value>کدIcdCode</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.IsActive" xml:space="preserve">
+    <value>فعال است</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.IsAdmin" xml:space="preserve">
+    <value>از سمت مدیر وارد شده</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.IsSpecial" xml:space="preserve">
+    <value>جزو بیماری های خاص</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="IllnessSettingForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.Fields.Buttons.Save" xml:space="preserve">
+    <value>ثبت</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.Floor" xml:space="preserve">
+    <value>طبقه</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.Phone" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.RoomNo" xml:space="preserve">
+    <value>شماره اتاق</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.RoomTypeId" xml:space="preserve">
+    <value>نوع اتاق</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="RoomSettingForm.FormElement.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Button.Fields.Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Button.Fields.Edit" xml:space="preserve">
+    <value>ویرایش</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Fields.Note" xml:space="preserve">
+    <value>توضیحات</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Floor" xml:space="preserve">
+    <value>طبقه</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.LocalCode" xml:space="preserve">
+    <value>کد داخلی</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Phone" xml:space="preserve">
+    <value>تلفن</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.RoomNo" xml:space="preserve">
+    <value>شماره اتاق</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.RoomTypeId" xml:space="preserve">
+    <value>نوع اتاق</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.SectionId" xml:space="preserve">
+    <value>بخش</value>
+  </data>
+  <data name="VitalSignsForm.Grid.Col.Fields.Title" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.Buttons.Search" xml:space="preserve">
+    <value>جستجو</value>
+  </data>
+  <data name="ReceptionSearchForm.FormElement.Fields.Buttons.TodaySearch" xml:space="preserve">
+    <value>مشاهده پذیرش امروز</value>
+  </data>
+  <data name="AllergyForm.FormElement.Buttons.NewItem" xml:space="preserve">
+    <value>الرژی</value>
+  </data>
+  <data name="menuBar.tabs.reception" xml:space="preserve">
+    <value>reception</value>
+  </data>
+  <data name="menuBar.tabs.setting" xml:space="preserve">
+    <value>setting</value>
+  </data>
+  <data name="menuBar.tabItem.recetption.bed" xml:space="preserve">
+    <value>bed</value>
+  </data>
+  <data name="menuBar.tabItem.recetption.patient" xml:space="preserve">
+    <value>patient</value>
+  </data>
+  <data name="menuBar.tabItem.settings.add" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="menuBar.tabItem.settings.remove" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="searchbar.fields.nationalCode" xml:space="preserve">
+    <value>National code</value>
+  </data>
+  <data name="searchbar.fields.identificationCode" xml:space="preserve">
+    <value>Identification code</value>
+  </data>
+  <data name="searchbar.fields.mobile" xml:space="preserve">
+    <value>Mobile</value>
+  </data>
+  <data name="searchbar.fields.HisNumber" xml:space="preserve">
+    <value>HIS number</value>
+  </data>
+  <data name="searchbar.fields.LastName" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="sidebar.fields.patient" xml:space="preserve">
+    <value>patient</value>
+  </data>
+  <data name="sidebar.fields.reception" xml:space="preserve">
+    <value>reception</value>
+  </data>
+  <data name="sidebar.fields.cash" xml:space="preserve">
+    <value>cash</value>
+  </data>
+  <data name="sidebar.fields.vitalSigns" xml:space="preserve">
+    <value>vitalSigns</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.id" xml:space="preserve">
+    <value>Lab Reception Id</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.hisno" xml:space="preserve">
+    <value>HIS Number</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.receptionId" xml:space="preserve">
+    <value>Reception Id</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.firstName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.lastName" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.fatherName" xml:space="preserve">
+    <value>Father Name</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.mobile" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.fileNo" xml:space="preserve">
+    <value>File Number</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.internalId" xml:space="preserve">
+    <value>Internal Id</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.nationalCode" xml:space="preserve">
+    <value>National Code</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.birthDate" xml:space="preserve">
+    <value>Birth Date</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.age" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.sexId" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.sectionId" xml:space="preserve">
+    <value>Section</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.doctorId" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.receptionDate" xml:space="preserve">
+    <value>Reception Date</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.prescriptionDoctorId" xml:space="preserve">
+    <value>Prescription Doctor Id</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.patoDoctorId" xml:space="preserve">
+    <value>Pato Doctor Id</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.lmpDate" xml:space="preserve">
+    <value>LMP Date</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.prescriptionDate" xml:space="preserve">
+    <value>Prescription Date</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.answareDate" xml:space="preserve">
+    <value>Answare Date</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.isPregnant" xml:space="preserve">
+    <value>Is Pregnant</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.noSample" xml:space="preserve">
+    <value>No Sample</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.billNumber" xml:space="preserve">
+    <value>Bill Number</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.note" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.testCodeTestName" xml:space="preserve">
+    <value>Test Code | Test Name</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.price" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.quentity" xml:space="preserve">
+    <value>Quentity</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.discount" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.finalPrice" xml:space="preserve">
+    <value>Final Price</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.samplingDataAndTime" xml:space="preserve">
+    <value>Sampling Data &amp; Time</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.labels.sampler" xml:space="preserve">
+    <value>Sampler</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.sampler.isRequired" xml:space="preserve">
+    <value>Sampler is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.samplingDataAndTime.isRequired" xml:space="preserve">
+    <value>Sampling Data And Time is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.finalPrice.isRequired" xml:space="preserve">
+    <value>Final price is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.discount.isRequired" xml:space="preserve">
+    <value>Discount is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.quentity.isRequired" xml:space="preserve">
+    <value>Quentity is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.price.isRequired" xml:space="preserve">
+    <value>Price is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.firstName.isRequired" xml:space="preserve">
+    <value>FirstName is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.firstName.Min" xml:space="preserve">
+    <value>FirstName must be at least 18</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.lastName.isRequired" xml:space="preserve">
+    <value>LastName is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.lastName.Min" xml:space="preserve">
+    <value>LastName must be at least 3</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.fatherName.isRequired" xml:space="preserve">
+    <value>FatherName is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.fatherName.Min" xml:space="preserve">
+    <value>FatherName must be at least 3</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.mobile.isRequired" xml:space="preserve">
+    <value>Mobile is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.mobile.Min" xml:space="preserve">
+    <value>Mobile must be at least 11</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.fileNo.isRequired" xml:space="preserve">
+    <value>File Number is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.hisno.isRequired" xml:space="preserve">
+    <value>HIS Number is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.receptionId.isRequired" xml:space="preserve">
+    <value>Reception id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.internalId.isRequired" xml:space="preserve">
+    <value>Internal id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.nationalCode.isRequired" xml:space="preserve">
+    <value>National code is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.birthDate.isRequired" xml:space="preserve">
+    <value>Birth date is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.age.isRequired" xml:space="preserve">
+    <value>Age is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.sexId.isRequired" xml:space="preserve">
+    <value>Sex id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.sectionId.isRequired" xml:space="preserve">
+    <value>Section id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.doctorId.isRequired" xml:space="preserve">
+    <value>Doctor id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.receptionDate.isRequired" xml:space="preserve">
+    <value>Reception date is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.id.isRequired" xml:space="preserve">
+    <value>Id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.prescriptionDoctorId.isRequired" xml:space="preserve">
+    <value>Prescription Doctor Id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.patoDoctorId.isRequired" xml:space="preserve">
+    <value>Pato Doctor Id is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.lmpDate.isRequired" xml:space="preserve">
+    <value>LMP Date is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.prescriptionDate.isRequired" xml:space="preserve">
+    <value>Prescription Date is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.answareDate.isRequired" xml:space="preserve">
+    <value>Answare Date is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.isPregnant.isRequired" xml:space="preserve">
+    <value>Is pregnant is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.noSample.isRequired" xml:space="preserve">
+    <value>No Sample is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.billNumber.isRequired" xml:space="preserve">
+    <value>Bill Number is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.note.isRequired" xml:space="preserve">
+    <value>Note is required</value>
+  </data>
+  <data name="labReceptionPage.FormFiels.errors.testCodeTestName.isRequired" xml:space="preserve">
+    <value>Test Code Test Name is required</value>
+  </data>
+  <data name="labReceptionPage.grid.headerCol.name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="labReceptionPage.grid.headerCol.receptionId" xml:space="preserve">
+    <value>Department Id</value>
+  </data>
+  <data name="labReceptionPage.grid.actions" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labReceptionPage.grid.buttons.edit" xml:space="preserve">
+    <value>edit</value>
+  </data>
+  <data name="labReceptionPage.grid.buttons.remove" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="labReceptionPage.buttons.submit" xml:space="preserve">
+    <value>submit</value>
+  </data>
+  <data name="labReceptionPage.buttons.saveAndNext" xml:space="preserve">
+    <value>save and next</value>
+  </data>
+  <data name="labReceptionPage.tab" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labReceptionPage.panels" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labReceptionPage.Respones" xml:space="preserve">
+    <value />
+  </data>
+  <data name="formPage.FormFiels.labels.firstName" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="formPage.FormFiels.labels.lastName" xml:space="preserve">
+    <value>نام خانوادگی</value>
+  </data>
+  <data name="formPage.FormFiels.labels.fatherName" xml:space="preserve">
+    <value>نام پدر</value>
+  </data>
+  <data name="formPage.FormFiels.labels.mobile" xml:space="preserve">
+    <value>شماره موبایل</value>
+  </data>
+  <data name="formPage.FormFiels.labels.age" xml:space="preserve">
+    <value>سن</value>
+  </data>
+  <data name="formPage.FormFiels.errors.firstName.isRequired" xml:space="preserve">
+    <value>نام لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.firstName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.lastName.isRequired" xml:space="preserve">
+    <value>نام خانوادگی لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.lastName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.fatherName.isRequired" xml:space="preserve">
+    <value>نام پدر لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.fatherName.MinThree" xml:space="preserve">
+    <value>حداقل 3 کاراکتر</value>
+  </data>
+  <data name="formPage.FormFiels.errors.mobile.isRequired" xml:space="preserve">
+    <value>موبایل لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.mobile.Min" xml:space="preserve">
+    <value>حداقل 10 رقم</value>
+  </data>
+  <data name="formPage.FormFiels.errors.age.isRequired" xml:space="preserve">
+    <value>سن لازم است </value>
+  </data>
+  <data name="formPage.FormFiels.errors.age.MinEighteen" xml:space="preserve">
+    <value>حداقل 18 سال</value>
+  </data>
+  <data name="PrescriptionServiceRoutine.Response.DeleteSuccess" xml:space="preserve">
+    <value>با موفقیت حذف شد</value>
+  </data>
+  <data name="PrescriptionServiceRoutine.Response.EditSuccess" xml:space="preserve">
+    <value>با موفقیت بروزرسانی شد</value>
+  </data>
+  <data name="PrescriptionServiceRoutine.Response.SaveSuccess" xml:space="preserve">
+    <value>با موفقیت ثبت شد</value>
+  </data>
+</root>
